@@ -1,10 +1,17 @@
 # Quote AI Assistant
 
+[![CI](https://github.com/shellybh/quote_ai_assistant/actions/workflows/ci.yml/badge.svg)](https://github.com/shellybh/quote_ai_assistant/actions/workflows/ci.yml)
+
 Final project, AI Developers course, The Hebrew University (2026). Reviewed and approved.
 
 **The problem.** A building-conservation business writes price proposals on the phone by hand: picking lines from a 471-item catalog, adding conditions and payment terms, and checking everything before it is sent.
+
 **The solution.** An AI server for the business's existing offline Flutter app (FastAPI, CrewAI Flow with three agents, Gemini). It turns a free-text message into suggested catalog lines, conditions and payment stages, and reviews a proposal before sending: missing conditions, unusual prices (by ratio only), wrong units and vague wording.
+
 **The principle: AI suggests, a person approves, code computes.** The AI never sets or sees a price, every catalog code it returns is validated in code, and totals and VAT are computed only in the app.
+
+![The demo app on a phone: suggested catalog lines from a free-text message, and a review finding before sending](docs/images/demo.png)
+*Left: lines suggested from a free-text message (green = matched, yellow = needs a check). Right: review before sending: code finds the problem, the Reviewer agent explains it. Demo app, fictional data.*
 
 | What was measured (separate test set, two runs) | Code-only baseline | With AI |
 |---|---|---|
