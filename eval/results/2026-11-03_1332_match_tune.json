@@ -1,0 +1,422 @@
+{
+  "capability": "A",
+  "kind": "agent",
+  "dataset": "match_tune.jsonl",
+  "dataset_hash": "35a9a57a57ef",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_hash": {
+    "intake": "9c9ef00c5c52",
+    "matcher": "3842f498ca8d"
+  },
+  "confidence": {
+    "search_weight": 0.7,
+    "review_below": 0.75
+  },
+  "summary_pct": {
+    "found": 89.5,
+    "wrong_suggestions": 4,
+    "lines": 21,
+    "no_match_items": 3
+  },
+  "rows": [
+    {
+      "id": "mt01",
+      "seconds": 4.74,
+      "found": 1,
+      "expected": 1,
+      "wrong": 0,
+      "lines": [
+        {
+          "code": "01.09.001.0100",
+          "correct": true,
+          "quantity": 120.0,
+          "unit": "מ\"ר",
+          "search_score": 98.4,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.87,
+          "needs_review": false
+        }
+      ],
+      "unmatched": [],
+      "warnings": []
+    },
+    {
+      "id": "mt02",
+      "seconds": 2.59,
+      "found": 1,
+      "expected": 1,
+      "wrong": 0,
+      "lines": [
+        {
+          "code": "01.09.001.0040",
+          "correct": true,
+          "quantity": 60.0,
+          "unit": "מ\"ר",
+          "search_score": 98.4,
+          "model_confidence": "high",
+          "alternatives": false,
+          "confidence": 0.99,
+          "needs_review": false
+        }
+      ],
+      "unmatched": [],
+      "warnings": []
+    },
+    {
+      "id": "mt03",
+      "seconds": 3.7,
+      "found": 2,
+      "expected": 2,
+      "wrong": 0,
+      "lines": [
+        {
+          "code": "01.14.001.0060",
+          "correct": true,
+          "quantity": 80.0,
+          "unit": "מ\"ר",
+          "search_score": 100.0,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.88,
+          "needs_review": false
+        },
+        {
+          "code": "01.14.001.0070",
+          "correct": true,
+          "quantity": 6.0,
+          "unit": "יח'",
+          "search_score": 100.0,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.88,
+          "needs_review": false
+        }
+      ],
+      "unmatched": [],
+      "warnings": []
+    },
+    {
+      "id": "mt04",
+      "seconds": 3.73,
+      "found": 1,
+      "expected": 2,
+      "wrong": 1,
+      "lines": [
+        {
+          "code": "01.06.002.0250",
+          "correct": false,
+          "quantity": 25.0,
+          "unit": "מ'",
+          "search_score": 85.9,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.78,
+          "needs_review": false
+        },
+        {
+          "code": "01.11.002.0034",
+          "correct": true,
+          "quantity": 25.0,
+          "unit": "מ'",
+          "search_score": 100.0,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.88,
+          "needs_review": false
+        }
+      ],
+      "unmatched": [],
+      "warnings": []
+    },
+    {
+      "id": "mt05",
+      "seconds": 2.95,
+      "found": 1,
+      "expected": 1,
+      "wrong": 0,
+      "lines": [
+        {
+          "code": "01.02.001.0180",
+          "correct": true,
+          "quantity": 30.0,
+          "unit": "מ'",
+          "search_score": 89.6,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.81,
+          "needs_review": false
+        }
+      ],
+      "unmatched": [],
+      "warnings": []
+    },
+    {
+      "id": "mt06",
+      "seconds": 2.93,
+      "found": 1,
+      "expected": 1,
+      "wrong": 0,
+      "lines": [
+        {
+          "code": "01.06.001.0370",
+          "correct": true,
+          "quantity": 8.0,
+          "unit": "יח'",
+          "search_score": 93.0,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.83,
+          "needs_review": false
+        }
+      ],
+      "unmatched": [],
+      "warnings": []
+    },
+    {
+      "id": "mt07",
+      "seconds": 3.44,
+      "found": 2,
+      "expected": 2,
+      "wrong": 0,
+      "lines": [
+        {
+          "code": "01.05.003.0008",
+          "correct": true,
+          "quantity": 150.0,
+          "unit": "מ\"ר",
+          "search_score": 97.7,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.86,
+          "needs_review": false
+        },
+        {
+          "code": "01.24.005.0010",
+          "correct": true,
+          "quantity": 150.0,
+          "unit": "מ\"ר",
+          "search_score": 99.2,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.87,
+          "needs_review": false
+        }
+      ],
+      "unmatched": [],
+      "warnings": []
+    },
+    {
+      "id": "mt08",
+      "seconds": 3.12,
+      "found": 1,
+      "expected": 1,
+      "wrong": 0,
+      "lines": [
+        {
+          "code": "01.09.001.0230",
+          "correct": true,
+          "quantity": 12.0,
+          "unit": "מ'",
+          "search_score": 99.2,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.87,
+          "needs_review": false
+        }
+      ],
+      "unmatched": [],
+      "warnings": []
+    },
+    {
+      "id": "mt09",
+      "seconds": 3.65,
+      "found": 2,
+      "expected": 2,
+      "wrong": 0,
+      "lines": [
+        {
+          "code": "01.29.001.0100",
+          "correct": true,
+          "quantity": 4.0,
+          "unit": "יח'",
+          "search_score": 99.2,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.87,
+          "needs_review": false
+        },
+        {
+          "code": "01.29.001.0900",
+          "correct": true,
+          "quantity": null,
+          "unit": "קומפ",
+          "search_score": 100.0,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.88,
+          "needs_review": true
+        }
+      ],
+      "unmatched": [],
+      "warnings": [
+        "לא צוינה כמות עבור 'פירוק אנטנות וכבלים ישנים'.",
+        "עבור 'פירוק אנטנות וכבלים ישנים' נאמרה יחידה מכולה, אבל הסעיף נמדד ב-קומפ. הכמות נשארה ריקה."
+      ]
+    },
+    {
+      "id": "mt10",
+      "seconds": 3.56,
+      "found": 1,
+      "expected": 1,
+      "wrong": 1,
+      "lines": [
+        {
+          "code": "01.05.001.0010",
+          "correct": true,
+          "quantity": 40.0,
+          "unit": "מ'",
+          "search_score": 98.4,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.87,
+          "needs_review": false
+        },
+        {
+          "code": "01.60.001.0120",
+          "correct": false,
+          "quantity": null,
+          "unit": "יח'",
+          "search_score": 49.2,
+          "model_confidence": "medium",
+          "alternatives": false,
+          "confidence": 0.52,
+          "needs_review": true
+        }
+      ],
+      "unmatched": [],
+      "warnings": [
+        "לא צוינה כמות עבור 'התקנת מצלמות אבטחה'."
+      ]
+    },
+    {
+      "id": "mt11",
+      "seconds": 2.95,
+      "found": 0,
+      "expected": 1,
+      "wrong": 1,
+      "lines": [
+        {
+          "code": "01.09.001.0110",
+          "correct": false,
+          "quantity": null,
+          "unit": "מ\"ר",
+          "search_score": 92.5,
+          "model_confidence": "medium",
+          "alternatives": true,
+          "confidence": 0.83,
+          "needs_review": true
+        }
+      ],
+      "unmatched": [],
+      "warnings": [
+        "לא צוינה כמות עבור 'טיפול ברטיבות קירות, הסרת מלחים וחידוש טיח מתקלף'.",
+        "עבור 'טיפול ברטיבות קירות, הסרת מלחים וחידוש טיח מתקלף' נאמרה יחידה יח', אבל הסעיף נמדד ב-מ\"ר. הכמות נשארה ריקה."
+      ]
+    },
+    {
+      "id": "mt12",
+      "seconds": 4.02,
+      "found": 2,
+      "expected": 2,
+      "wrong": 0,
+      "lines": [
+        {
+          "code": "01.24.040.0010",
+          "correct": true,
+          "quantity": 8.0,
+          "unit": "מ\"ק",
+          "search_score": 100.0,
+          "model_confidence": "high",
+          "alternatives": false,
+          "confidence": 1.0,
+          "needs_review": false
+        },
+        {
+          "code": "01.09.001.0040",
+          "correct": true,
+          "quantity": 30.0,
+          "unit": "מ\"ר",
+          "search_score": 98.4,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.87,
+          "needs_review": false
+        }
+      ],
+      "unmatched": [],
+      "warnings": []
+    },
+    {
+      "id": "mt13",
+      "seconds": 3.58,
+      "found": 1,
+      "expected": 1,
+      "wrong": 0,
+      "lines": [
+        {
+          "code": "01.09.001.0060",
+          "correct": true,
+          "quantity": 60.0,
+          "unit": "מ\"ר",
+          "search_score": 100.0,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.88,
+          "needs_review": false
+        }
+      ],
+      "unmatched": [
+        "פינוי פסולת"
+      ],
+      "warnings": [
+        "הסעיף שהוצע עבור 'פינוי פסולת' לא היה ברשימת המועמדים, ולכן הוסר."
+      ]
+    },
+    {
+      "id": "mt14",
+      "seconds": 2.99,
+      "found": 1,
+      "expected": 1,
+      "wrong": 1,
+      "lines": [
+        {
+          "code": "01.11.001.0070",
+          "correct": true,
+          "quantity": 90.0,
+          "unit": "מ\"ר",
+          "search_score": 95.5,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.85,
+          "needs_review": false
+        },
+        {
+          "code": "01.24.040.0010",
+          "correct": false,
+          "quantity": null,
+          "unit": "מ\"ק",
+          "search_score": 100.0,
+          "model_confidence": "medium",
+          "alternatives": false,
+          "confidence": 0.88,
+          "needs_review": true
+        }
+      ],
+      "unmatched": [],
+      "warnings": [
+        "לא צוינה כמות עבור 'פינוי פסולת'."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,472 @@
+{
+  "capability": "A+",
+  "kind": "baseline_keywords_regex",
+  "dataset": "aplus_test.jsonl",
+  "dataset_hash": "25928164a316",
+  "conditions": {
+    "recall": 76.5,
+    "precision": 86.7,
+    "exact_cases": 65.0,
+    "false_positives": 4,
+    "missed": 8
+  },
+  "payment": {
+    "exact_all_cases": 100.0,
+    "exact_with_payment": 100.0,
+    "invented_plan": 0
+  },
+  "rows": [
+    {
+      "id": "bt01",
+      "expected": [
+        "scaffolding_excluded",
+        "payment"
+      ],
+      "found": [
+        "payment",
+        "scaffolding_included"
+      ],
+      "payment_expected": [
+        [
+          null,
+          "[סכום1]",
+          false
+        ],
+        [
+          null,
+          "[סכום2]",
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_found": [
+        [
+          null,
+          "[סכום1]",
+          false
+        ],
+        [
+          null,
+          "[סכום2]",
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_exact": true
+    },
+    {
+      "id": "bt02",
+      "expected": [
+        "hidden_defects",
+        "warranty"
+      ],
+      "found": [
+        "hidden_defects",
+        "warranty"
+      ],
+      "payment_expected": [],
+      "payment_found": [],
+      "payment_exact": true
+    },
+    {
+      "id": "bt03",
+      "expected": [
+        "utilities",
+        "payment"
+      ],
+      "found": [
+        "utilities"
+      ],
+      "payment_expected": [
+        [
+          40.0,
+          null,
+          false
+        ],
+        [
+          60.0,
+          null,
+          false
+        ]
+      ],
+      "payment_found": [
+        [
+          40.0,
+          null,
+          false
+        ],
+        [
+          60.0,
+          null,
+          false
+        ]
+      ],
+      "payment_exact": true
+    },
+    {
+      "id": "bt04",
+      "expected": [],
+      "found": [],
+      "payment_expected": [],
+      "payment_found": [],
+      "payment_exact": true
+    },
+    {
+      "id": "bt05",
+      "expected": [
+        "measurement",
+        "changes"
+      ],
+      "found": [
+        "changes",
+        "measurement"
+      ],
+      "payment_expected": [],
+      "payment_found": [],
+      "payment_exact": true
+    },
+    {
+      "id": "bt06",
+      "expected": [
+        "permits",
+        "samples"
+      ],
+      "found": [
+        "permits",
+        "samples"
+      ],
+      "payment_expected": [],
+      "payment_found": [],
+      "payment_exact": true
+    },
+    {
+      "id": "bt07",
+      "expected": [
+        "schedule",
+        "insurance",
+        "payment"
+      ],
+      "found": [
+        "insurance",
+        "payment",
+        "schedule"
+      ],
+      "payment_expected": [
+        [
+          100.0,
+          null,
+          false
+        ]
+      ],
+      "payment_found": [
+        [
+          100.0,
+          null,
+          false
+        ]
+      ],
+      "payment_exact": true
+    },
+    {
+      "id": "bt08",
+      "expected": [
+        "scaffolding_included",
+        "waste",
+        "payment"
+      ],
+      "found": [
+        "payment",
+        "scaffolding_included",
+        "waste"
+      ],
+      "payment_expected": [
+        [
+          25.0,
+          null,
+          false
+        ],
+        [
+          null,
+          "[סכום1]",
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_found": [
+        [
+          25.0,
+          null,
+          false
+        ],
+        [
+          null,
+          "[סכום1]",
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_exact": true
+    },
+    {
+      "id": "bt09",
+      "expected": [],
+      "found": [],
+      "payment_expected": [],
+      "payment_found": [],
+      "payment_exact": true
+    },
+    {
+      "id": "bt10",
+      "expected": [
+        "access"
+      ],
+      "found": [],
+      "payment_expected": [],
+      "payment_found": [],
+      "payment_exact": true
+    },
+    {
+      "id": "bt11",
+      "expected": [
+        "scaffolding_excluded"
+      ],
+      "found": [
+        "scaffolding_excluded"
+      ],
+      "payment_expected": [],
+      "payment_found": [],
+      "payment_exact": true
+    },
+    {
+      "id": "bt12",
+      "expected": [
+        "payment"
+      ],
+      "found": [
+        "permits"
+      ],
+      "payment_expected": [
+        [
+          null,
+          "[סכום1]",
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_found": [
+        [
+          null,
+          "[סכום1]",
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_exact": true
+    },
+    {
+      "id": "bt13",
+      "expected": [
+        "measurement",
+        "warranty",
+        "hidden_defects"
+      ],
+      "found": [
+        "hidden_defects",
+        "measurement",
+        "warranty"
+      ],
+      "payment_expected": [],
+      "payment_found": [],
+      "payment_exact": true
+    },
+    {
+      "id": "bt14",
+      "expected": [
+        "payment"
+      ],
+      "found": [
+        "permits"
+      ],
+      "payment_expected": [
+        [
+          30.0,
+          null,
+          false
+        ],
+        [
+          30.0,
+          null,
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_found": [
+        [
+          30.0,
+          null,
+          false
+        ],
+        [
+          30.0,
+          null,
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_exact": true
+    },
+    {
+      "id": "bt15",
+      "expected": [
+        "scaffolding_included",
+        "permits",
+        "access"
+      ],
+      "found": [
+        "access",
+        "permits",
+        "scaffolding_included"
+      ],
+      "payment_expected": [],
+      "payment_found": [],
+      "payment_exact": true
+    },
+    {
+      "id": "bt16",
+      "expected": [
+        "samples",
+        "waste_excluded"
+      ],
+      "found": [
+        "samples",
+        "waste"
+      ],
+      "payment_expected": [],
+      "payment_found": [],
+      "payment_exact": true
+    },
+    {
+      "id": "bt17",
+      "expected": [],
+      "found": [],
+      "payment_expected": [],
+      "payment_found": [],
+      "payment_exact": true
+    },
+    {
+      "id": "bt18",
+      "expected": [
+        "hidden_defects",
+        "payment"
+      ],
+      "found": [],
+      "payment_expected": [
+        [
+          50.0,
+          null,
+          false
+        ],
+        [
+          50.0,
+          null,
+          false
+        ]
+      ],
+      "payment_found": [
+        [
+          50.0,
+          null,
+          false
+        ],
+        [
+          50.0,
+          null,
+          false
+        ]
+      ],
+      "payment_exact": true
+    },
+    {
+      "id": "bt19",
+      "expected": [
+        "insurance",
+        "changes",
+        "schedule"
+      ],
+      "found": [
+        "changes",
+        "insurance",
+        "schedule"
+      ],
+      "payment_expected": [],
+      "payment_found": [],
+      "payment_exact": true
+    },
+    {
+      "id": "bt20",
+      "expected": [
+        "payment"
+      ],
+      "found": [
+        "payment"
+      ],
+      "payment_expected": [
+        [
+          null,
+          "[סכום1]",
+          false
+        ],
+        [
+          null,
+          "[סכום2]",
+          false
+        ]
+      ],
+      "payment_found": [
+        [
+          null,
+          "[סכום1]",
+          false
+        ],
+        [
+          null,
+          "[סכום2]",
+          false
+        ]
+      ],
+      "payment_exact": true
+    }
+  ]
+}

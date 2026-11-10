@@ -1,0 +1,117 @@
+{
+  "capability": "A+",
+  "kind": "baseline_keywords",
+  "dataset": "aplus_tune.jsonl",
+  "dataset_hash": "1e852c8689a9",
+  "conditions": {
+    "recall": 75.0,
+    "precision": 93.8,
+    "exact_cases": 40.0,
+    "false_positives": 1,
+    "missed": 5
+  },
+  "rows": [
+    {
+      "id": "ap01",
+      "expected": [
+        "scaffolding_excluded",
+        "payment"
+      ],
+      "found": [
+        "scaffolding_excluded"
+      ]
+    },
+    {
+      "id": "ap02",
+      "expected": [
+        "scaffolding_included",
+        "utilities",
+        "payment"
+      ],
+      "found": [
+        "payment",
+        "scaffolding_included",
+        "utilities"
+      ]
+    },
+    {
+      "id": "ap03",
+      "expected": [
+        "warranty",
+        "measurement"
+      ],
+      "found": [
+        "measurement",
+        "warranty"
+      ]
+    },
+    {
+      "id": "ap04",
+      "expected": [
+        "permits",
+        "hidden_defects",
+        "payment"
+      ],
+      "found": [
+        "hidden_defects",
+        "permits"
+      ]
+    },
+    {
+      "id": "ap05",
+      "expected": [],
+      "found": []
+    },
+    {
+      "id": "ap06",
+      "expected": [],
+      "found": []
+    },
+    {
+      "id": "ap07",
+      "expected": [
+        "changes",
+        "insurance",
+        "waste",
+        "payment"
+      ],
+      "found": [
+        "changes",
+        "insurance",
+        "waste"
+      ]
+    },
+    {
+      "id": "ap08",
+      "expected": [
+        "samples",
+        "payment"
+      ],
+      "found": [
+        "samples"
+      ]
+    },
+    {
+      "id": "ap09",
+      "expected": [
+        "scaffolding_excluded"
+      ],
+      "found": [
+        "scaffolding_excluded",
+        "waste"
+      ]
+    },
+    {
+      "id": "ap10",
+      "expected": [
+        "access",
+        "schedule",
+        "payment"
+      ],
+      "found": [
+        "access",
+        "schedule"
+      ]
+    }
+  ]
+}

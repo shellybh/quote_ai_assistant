@@ -1,0 +1,295 @@
+{
+  "capability": "A+",
+  "kind": "baseline_keywords_regex",
+  "dataset": "aplus_tune.jsonl",
+  "dataset_hash": "58bdf4c45fe3",
+  "conditions": {
+    "recall": 76.2,
+    "precision": 100.0,
+    "exact_cases": 50.0,
+    "false_positives": 0,
+    "missed": 5
+  },
+  "payment": {
+    "exact_all_cases": 100.0,
+    "exact_with_payment": 100.0,
+    "invented_plan": 0
+  },
+  "rows": [
+    {
+      "id": "ap01",
+      "expected": [
+        "scaffolding_excluded",
+        "payment"
+      ],
+      "found": [
+        "scaffolding_excluded"
+      ],
+      "payment_expected": [
+        [
+          null,
+          "[סכום1]",
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_found": [
+        [
+          null,
+          "[סכום1]",
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_exact": true
+    },
+    {
+      "id": "ap02",
+      "expected": [
+        "scaffolding_included",
+        "utilities",
+        "payment"
+      ],
+      "found": [
+        "payment",
+        "scaffolding_included",
+        "utilities"
+      ],
+      "payment_expected": [
+        [
+          30.0,
+          null,
+          false
+        ],
+        [
+          40.0,
+          null,
+          false
+        ],
+        [
+          30.0,
+          null,
+          false
+        ]
+      ],
+      "payment_found": [
+        [
+          30.0,
+          null,
+          false
+        ],
+        [
+          40.0,
+          null,
+          false
+        ],
+        [
+          30.0,
+          null,
+          false
+        ]
+      ],
+      "payment_exact": true
+    },
+    {
+      "id": "ap03",
+      "expected": [
+        "warranty",
+        "measurement"
+      ],
+      "found": [
+        "measurement",
+        "warranty"
+      ],
+      "payment_expected": [],
+      "payment_found": [],
+      "payment_exact": true
+    },
+    {
+      "id": "ap04",
+      "expected": [
+        "permits",
+        "hidden_defects",
+        "payment"
+      ],
+      "found": [
+        "hidden_defects",
+        "permits"
+      ],
+      "payment_expected": [
+        [
+          50.0,
+          null,
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_found": [
+        [
+          50.0,
+          null,
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_exact": true
+    },
+    {
+      "id": "ap05",
+      "expected": [],
+      "found": [],
+      "payment_expected": [],
+      "payment_found": [],
+      "payment_exact": true
+    },
+    {
+      "id": "ap06",
+      "expected": [],
+      "found": [],
+      "payment_expected": [],
+      "payment_found": [],
+      "payment_exact": true
+    },
+    {
+      "id": "ap07",
+      "expected": [
+        "changes",
+        "insurance",
+        "waste",
+        "payment"
+      ],
+      "found": [
+        "changes",
+        "insurance",
+        "waste"
+      ],
+      "payment_expected": [
+        [
+          100.0,
+          null,
+          false
+        ]
+      ],
+      "payment_found": [
+        [
+          100.0,
+          null,
+          false
+        ]
+      ],
+      "payment_exact": true
+    },
+    {
+      "id": "ap08",
+      "expected": [
+        "samples",
+        "payment"
+      ],
+      "found": [
+        "samples"
+      ],
+      "payment_expected": [
+        [
+          null,
+          "[סכום1]",
+          false
+        ],
+        [
+          null,
+          "[סכום2]",
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_found": [
+        [
+          null,
+          "[סכום1]",
+          false
+        ],
+        [
+          null,
+          "[סכום2]",
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_exact": true
+    },
+    {
+      "id": "ap09",
+      "expected": [
+        "scaffolding_excluded",
+        "waste_excluded"
+      ],
+      "found": [
+        "scaffolding_excluded",
+        "waste_excluded"
+      ],
+      "payment_expected": [],
+      "payment_found": [],
+      "payment_exact": true
+    },
+    {
+      "id": "ap10",
+      "expected": [
+        "access",
+        "schedule",
+        "payment"
+      ],
+      "found": [
+        "access",
+        "schedule"
+      ],
+      "payment_expected": [
+        [
+          20.0,
+          null,
+          false
+        ],
+        [
+          80.0,
+          null,
+          false
+        ]
+      ],
+      "payment_found": [
+        [
+          20.0,
+          null,
+          false
+        ],
+        [
+          80.0,
+          null,
+          false
+        ]
+      ],
+      "payment_exact": true
+    }
+  ]
+}

@@ -1,0 +1,686 @@
+{
+  "capability": "A+",
+  "kind": "agent",
+  "dataset": "aplus_natural.jsonl",
+  "dataset_hash": "568647ca659e",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_hash": {
+    "intake": "0bad6aaa2603",
+    "matcher": "a2a8a1e1b629"
+  },
+  "confidence": {
+    "condition_score": {
+      "high": 0.9,
+      "medium": 0.6,
+      "low": 0.3
+    },
+    "review_below": 0.75
+  },
+  "conditions": {
+    "recall": null,
+    "precision": 0.0,
+    "exact_cases": 0.0,
+    "false_positives": 10,
+    "missed": 0,
+    "ticked_precision": 0.0,
+    "unmatched_found": null,
+    "unmatched_extra": 0
+  },
+  "payment": {
+    "exact_all_cases": 90.0,
+    "exact_with_payment": 100.0,
+    "invented_plan": 1
+  },
+  "rows": [
+    {
+      "id": "pn01",
+      "seconds": 16.52,
+      "expected": [],
+      "found": [
+        "payment"
+      ],
+      "ticked": [
+        "payment"
+      ],
+      "suggested": [
+        {
+          "key": "payment",
+          "source_text": "שלושים אחוז מקדמה, והשאר בסוף העבודה.",
+          "confidence": 0.9
+        }
+      ],
+      "unmatched_expected": 0,
+      "unmatched_found": 0,
+      "unmatched": [],
+      "payment_expected": [
+        [
+          30.0,
+          null,
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_found": [
+        [
+          30.0,
+          null,
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_exact": true,
+      "payment_said": [
+        {
+          "description": "מקדמה",
+          "percent": 30.0,
+          "amount_ref": null,
+          "is_remainder": false
+        },
+        {
+          "description": "בסוף העבודה",
+          "percent": null,
+          "amount_ref": null,
+          "is_remainder": true
+        }
+      ],
+      "lines": [
+        "01.11.001.0090"
+      ],
+      "warnings": [
+        "עבור 'שיפוץ חזית' נאמרה יחידה מקדמה, אבל הסעיף נמדד ב-מ\"ר."
+      ]
+    },
+    {
+      "id": "pn02",
+      "seconds": 17.29,
+      "expected": [],
+      "found": [
+        "payment"
+      ],
+      "ticked": [
+        "payment"
+      ],
+      "suggested": [
+        {
+          "key": "payment",
+          "source_text": "חצי בתחילת העבודה וחצי בסיום.",
+          "confidence": 0.9
+        }
+      ],
+      "unmatched_expected": 0,
+      "unmatched_found": 0,
+      "unmatched": [],
+      "payment_expected": [
+        [
+          50.0,
+          null,
+          false
+        ],
+        [
+          50.0,
+          null,
+          false
+        ]
+      ],
+      "payment_found": [
+        [
+          50.0,
+          null,
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_exact": true,
+      "payment_said": [
+        {
+          "description": "בתחילת העבודה",
+          "percent": 50.0,
+          "amount_ref": null,
+          "is_remainder": false
+        },
+        {
+          "description": "בסיום העבודה",
+          "percent": null,
+          "amount_ref": null,
+          "is_remainder": true
+        }
+      ],
+      "lines": [
+        "01.11.002.0034"
+      ],
+      "warnings": [
+        "לא צוינה כמות עבור 'צביעת מעקות'."
+      ]
+    },
+    {
+      "id": "pn03",
+      "seconds": 3.65,
+      "expected": [],
+      "found": [
+        "payment"
+      ],
+      "ticked": [
+        "payment"
+      ],
+      "suggested": [
+        {
+          "key": "payment",
+          "source_text": "שליש בחתימה, שליש באמצע ושליש בגמר.",
+          "confidence": 0.9
+        }
+      ],
+      "unmatched_expected": 0,
+      "unmatched_found": 0,
+      "unmatched": [],
+      "payment_expected": [
+        [
+          33.3,
+          null,
+          false
+        ],
+        [
+          33.3,
+          null,
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_found": [
+        [
+          33.3,
+          null,
+          false
+        ],
+        [
+          33.3,
+          null,
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_exact": true,
+      "payment_said": [
+        {
+          "description": "בחתימה",
+          "percent": 33.33,
+          "amount_ref": null,
+          "is_remainder": false
+        },
+        {
+          "description": "באמצע",
+          "percent": 33.33,
+          "amount_ref": null,
+          "is_remainder": false
+        },
+        {
+          "description": "בגמר",
+          "percent": null,
+          "amount_ref": null,
+          "is_remainder": true
+        }
+      ],
+      "lines": [],
+      "warnings": []
+    },
+    {
+      "id": "pn04",
+      "seconds": 3.02,
+      "expected": [],
+      "found": [
+        "payment"
+      ],
+      "ticked": [
+        "payment"
+      ],
+      "suggested": [
+        {
+          "key": "payment",
+          "source_text": "תשלום אחד בסיום העבודה",
+          "confidence": 0.9
+        }
+      ],
+      "unmatched_expected": 0,
+      "unmatched_found": 0,
+      "unmatched": [],
+      "payment_expected": [
+        [
+          100.0,
+          null,
+          false
+        ]
+      ],
+      "payment_found": [
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_exact": true,
+      "payment_said": [
+        {
+          "description": "סיום העבודה",
+          "percent": null,
+          "amount_ref": null,
+          "is_remainder": true
+        }
+      ],
+      "lines": [
+        "01.20.002.0120"
+      ],
+      "warnings": [
+        "עבור 'ניקוי גג רעפים' נאמרה יחידה גג, אבל הסעיף נמדד ב-מ\"ר."
+      ]
+    },
+    {
+      "id": "pn05",
+      "seconds": 2.42,
+      "expected": [],
+      "found": [
+        "payment"
+      ],
+      "ticked": [
+        "payment"
+      ],
+      "suggested": [
+        {
+          "key": "payment",
+          "source_text": "רבע מהסכום מראש, עוד רבע כשמסיימים את הפיגום, והיתרה במסירה.",
+          "confidence": 0.9
+        }
+      ],
+      "unmatched_expected": 0,
+      "unmatched_found": 0,
+      "unmatched": [],
+      "payment_expected": [
+        [
+          25.0,
+          null,
+          false
+        ],
+        [
+          25.0,
+          null,
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_found": [
+        [
+          25.0,
+          null,
+          false
+        ],
+        [
+          25.0,
+          null,
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_exact": true,
+      "payment_said": [
+        {
+          "description": "מראש",
+          "percent": 25.0,
+          "amount_ref": null,
+          "is_remainder": false
+        },
+        {
+          "description": "כשמסיימים את הפיגום",
+          "percent": 25.0,
+          "amount_ref": null,
+          "is_remainder": false
+        },
+        {
+          "description": "במסירה",
+          "percent": null,
+          "amount_ref": null,
+          "is_remainder": true
+        }
+      ],
+      "lines": [],
+      "warnings": []
+    },
+    {
+      "id": "pn06",
+      "seconds": 2.62,
+      "expected": [],
+      "found": [
+        "payment"
+      ],
+      "ticked": [
+        "payment"
+      ],
+      "suggested": [
+        {
+          "key": "payment",
+          "source_text": "עשרים וחמישה אחוז מקדמה.",
+          "confidence": 0.9
+        }
+      ],
+      "unmatched_expected": 0,
+      "unmatched_found": 0,
+      "unmatched": [],
+      "payment_expected": [
+        [
+          25.0,
+          null,
+          false
+        ],
+        [
+          null,
+          "[סכום1]",
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_found": [
+        [
+          25.0,
+          null,
+          false
+        ],
+        [
+          null,
+          "[סכום1]",
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_exact": true,
+      "payment_said": [
+        {
+          "description": "מקדמה",
+          "percent": 25.0,
+          "amount_ref": null,
+          "is_remainder": false
+        },
+        {
+          "description": "אחרי הטיח",
+          "percent": null,
+          "amount_ref": "[סכום1]",
+          "is_remainder": false
+        },
+        {
+          "description": "מסירה",
+          "percent": null,
+          "amount_ref": null,
+          "is_remainder": true
+        }
+      ],
+      "lines": [],
+      "warnings": []
+    },
+    {
+      "id": "pn07",
+      "seconds": 2.46,
+      "expected": [],
+      "found": [
+        "payment"
+      ],
+      "ticked": [
+        "payment"
+      ],
+      "suggested": [
+        {
+          "key": "payment",
+          "source_text": "התשלום: 40 אחוז בהזמנה ו-60 אחוז בגמר.",
+          "confidence": 0.9
+        }
+      ],
+      "unmatched_expected": 0,
+      "unmatched_found": 0,
+      "unmatched": [],
+      "payment_expected": [
+        [
+          40.0,
+          null,
+          false
+        ],
+        [
+          60.0,
+          null,
+          false
+        ]
+      ],
+      "payment_found": [
+        [
+          40.0,
+          null,
+          false
+        ],
+        [
+          60.0,
+          null,
+          false
+        ]
+      ],
+      "payment_exact": true,
+      "payment_said": [
+        {
+          "description": "בהזמנה",
+          "percent": 40.0,
+          "amount_ref": null,
+          "is_remainder": false
+        },
+        {
+          "description": "בגמר",
+          "percent": 60.0,
+          "amount_ref": null,
+          "is_remainder": false
+        }
+      ],
+      "lines": [],
+      "warnings": []
+    },
+    {
+      "id": "pn08",
+      "seconds": 2.37,
+      "expected": [],
+      "found": [
+        "payment"
+      ],
+      "ticked": [
+        "payment"
+      ],
+      "suggested": [
+        {
+          "key": "payment",
+          "source_text": "מקדמה [סכום1], ואת השאר בשני תשלומים שווים, באמצע ובסוף.",
+          "confidence": 0.9
+        }
+      ],
+      "unmatched_expected": 0,
+      "unmatched_found": 0,
+      "unmatched": [],
+      "payment_expected": [],
+      "payment_found": [
+        [
+          null,
+          "[סכום1]",
+          false
+        ],
+        [
+          50.0,
+          null,
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_exact": false,
+      "payment_said": [
+        {
+          "description": "מקדמה",
+          "percent": null,
+          "amount_ref": "[סכום1]",
+          "is_remainder": false
+        },
+        {
+          "description": "באמצע",
+          "percent": 50.0,
+          "amount_ref": null,
+          "is_remainder": false
+        },
+        {
+          "description": "בסוף",
+          "percent": null,
+          "amount_ref": null,
+          "is_remainder": true
+        }
+      ],
+      "lines": [],
+      "warnings": []
+    },
+    {
+      "id": "pn09",
+      "seconds": 2.34,
+      "expected": [],
+      "found": [
+        "payment"
+      ],
+      "ticked": [
+        "payment"
+      ],
+      "suggested": [
+        {
+          "key": "payment",
+          "source_text": "בלי מקדמה",
+          "confidence": 0.9
+        }
+      ],
+      "unmatched_expected": 0,
+      "unmatched_found": 0,
+      "unmatched": [],
+      "payment_expected": [
+        [
+          100.0,
+          null,
+          false
+        ]
+      ],
+      "payment_found": [
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_exact": true,
+      "payment_said": [
+        {
+          "description": "בסוף",
+          "percent": null,
+          "amount_ref": null,
+          "is_remainder": true
+        }
+      ],
+      "lines": [],
+      "warnings": []
+    },
+    {
+      "id": "pn10",
+      "seconds": 3.06,
+      "expected": [],
+      "found": [
+        "payment"
+      ],
+      "ticked": [
+        "payment"
+      ],
+      "suggested": [
+        {
+          "key": "payment",
+          "source_text": "מקדמה 10 אחוז ויתרה בסיום.",
+          "confidence": 0.9
+        }
+      ],
+      "unmatched_expected": 0,
+      "unmatched_found": 0,
+      "unmatched": [],
+      "payment_expected": [
+        [
+          10.0,
+          null,
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_found": [
+        [
+          10.0,
+          null,
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_exact": true,
+      "payment_said": [
+        {
+          "description": "מקדמה",
+          "percent": 10.0,
+          "amount_ref": null,
+          "is_remainder": false
+        },
+        {
+          "description": "יתרה בסיום",
+          "percent": null,
+          "amount_ref": null,
+          "is_remainder": true
+        }
+      ],
+      "lines": [
+        "01.06.001.0415"
+      ],
+      "warnings": []
+    }
+  ]
+}

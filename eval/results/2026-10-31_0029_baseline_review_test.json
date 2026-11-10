@@ -1,0 +1,489 @@
+{
+  "capability": "B",
+  "kind": "baseline_code_checks",
+  "dataset": "review_test.jsonl",
+  "dataset_hash": "4a5f1e535f53",
+  "rules_hash": "b8905bc46ac8",
+  "model": null,
+  "prompt_hash": null,
+  "by_kind": {
+    "missing_condition": {
+      "tp": 7,
+      "recall": 100.0,
+      "precision": 100.0
+    },
+    "price_vs_history": {
+      "tp": 7,
+      "recall": 100.0,
+      "precision": 100.0
+    },
+    "unit_mismatch": {
+      "tp": 7,
+      "recall": 100.0,
+      "precision": 100.0
+    },
+    "wording": {
+      "fn": 8,
+      "tp": 3,
+      "recall": 27.3,
+      "precision": 100.0
+    }
+  },
+  "total": {
+    "tp": 24,
+    "fn": 8,
+    "recall": 75.0,
+    "precision": 100.0
+  },
+  "rows": [
+    {
+      "id": "rx01",
+      "expected": [
+        [
+          null,
+          "missing_condition"
+        ]
+      ],
+      "found": [
+        [
+          null,
+          "missing_condition"
+        ]
+      ],
+      "seconds": 0.01
+    },
+    {
+      "id": "rx02",
+      "expected": [
+        [
+          "01.14.001.0060",
+          "missing_condition"
+        ]
+      ],
+      "found": [
+        [
+          "01.14.001.0060",
+          "missing_condition"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx03",
+      "expected": [
+        [
+          null,
+          "missing_condition"
+        ]
+      ],
+      "found": [
+        [
+          null,
+          "missing_condition"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx04",
+      "expected": [
+        [
+          "01.60.001.0010",
+          "price_vs_history"
+        ]
+      ],
+      "found": [
+        [
+          "01.60.001.0010",
+          "price_vs_history"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx05",
+      "expected": [
+        [
+          "01.05.001.0050",
+          "price_vs_history"
+        ]
+      ],
+      "found": [
+        [
+          "01.05.001.0050",
+          "price_vs_history"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx06",
+      "expected": [
+        [
+          "01.09.001.0270",
+          "price_vs_history"
+        ]
+      ],
+      "found": [
+        [
+          "01.09.001.0270",
+          "price_vs_history"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx07",
+      "expected": [
+        [
+          "01.60.001.0010",
+          "price_vs_history"
+        ]
+      ],
+      "found": [
+        [
+          "01.60.001.0010",
+          "price_vs_history"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx08",
+      "expected": [
+        [
+          "01.03.001.0010",
+          "unit_mismatch"
+        ]
+      ],
+      "found": [
+        [
+          "01.03.001.0010",
+          "unit_mismatch"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx09",
+      "expected": [
+        [
+          "01.09.001.0030",
+          "unit_mismatch"
+        ]
+      ],
+      "found": [
+        [
+          "01.09.001.0030",
+          "unit_mismatch"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx10",
+      "expected": [
+        [
+          "01.14.001.0036",
+          "unit_mismatch"
+        ]
+      ],
+      "found": [
+        [
+          "01.14.001.0036",
+          "unit_mismatch"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx11",
+      "expected": [
+        [
+          "01.02.001.0200",
+          "unit_mismatch"
+        ]
+      ],
+      "found": [
+        [
+          "01.02.001.0200",
+          "unit_mismatch"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx12",
+      "expected": [
+        [
+          "01.24.005.0050",
+          "wording"
+        ]
+      ],
+      "found": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx13",
+      "expected": [
+        [
+          "01.06.001.0190",
+          "wording"
+        ]
+      ],
+      "found": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx14",
+      "expected": [
+        [
+          "01.06.002.0260",
+          "wording"
+        ]
+      ],
+      "found": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx15",
+      "expected": [
+        [
+          "01.20.002.0130",
+          "wording"
+        ]
+      ],
+      "found": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx16",
+      "expected": [
+        [
+          "01.10.001.0110",
+          "wording"
+        ]
+      ],
+      "found": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx17",
+      "expected": [
+        [
+          null,
+          "wording"
+        ]
+      ],
+      "found": [
+        [
+          null,
+          "wording"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx18",
+      "expected": [
+        [
+          null,
+          "wording"
+        ]
+      ],
+      "found": [
+        [
+          null,
+          "wording"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx19",
+      "expected": [
+        [
+          "01.14.001.0060",
+          "missing_condition"
+        ],
+        [
+          "01.60.001.0010",
+          "price_vs_history"
+        ]
+      ],
+      "found": [
+        [
+          "01.14.001.0060",
+          "missing_condition"
+        ],
+        [
+          "01.60.001.0010",
+          "price_vs_history"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx20",
+      "expected": [
+        [
+          "01.02.001.0180",
+          "missing_condition"
+        ],
+        [
+          "01.11.002.0034",
+          "unit_mismatch"
+        ]
+      ],
+      "found": [
+        [
+          "01.02.001.0180",
+          "missing_condition"
+        ],
+        [
+          "01.11.002.0034",
+          "unit_mismatch"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx21",
+      "expected": [
+        [
+          "01.06.002.0290",
+          "wording"
+        ],
+        [
+          "01.11.002.0034",
+          "price_vs_history"
+        ]
+      ],
+      "found": [
+        [
+          "01.11.002.0034",
+          "price_vs_history"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx22",
+      "expected": [
+        [
+          "01.05.001.0050",
+          "price_vs_history"
+        ],
+        [
+          "01.20.002.0010",
+          "unit_mismatch"
+        ]
+      ],
+      "found": [
+        [
+          "01.05.001.0050",
+          "price_vs_history"
+        ],
+        [
+          "01.20.002.0010",
+          "unit_mismatch"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx23",
+      "expected": [
+        [
+          "01.09.001.0194",
+          "wording"
+        ],
+        [
+          null,
+          "missing_condition"
+        ]
+      ],
+      "found": [
+        [
+          null,
+          "missing_condition"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx24",
+      "expected": [
+        [
+          "01.24.009.0010",
+          "wording"
+        ],
+        [
+          "01.60.001.0010",
+          "unit_mismatch"
+        ]
+      ],
+      "found": [
+        [
+          "01.60.001.0010",
+          "unit_mismatch"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx25",
+      "expected": [
+        [
+          null,
+          "missing_condition"
+        ],
+        [
+          null,
+          "wording"
+        ]
+      ],
+      "found": [
+        [
+          null,
+          "missing_condition"
+        ],
+        [
+          null,
+          "wording"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx26",
+      "expected": [],
+      "found": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx27",
+      "expected": [],
+      "found": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx28",
+      "expected": [],
+      "found": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx29",
+      "expected": [],
+      "found": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "rx30",
+      "expected": [],
+      "found": [],
+      "seconds": 0.0
+    }
+  ]
+}

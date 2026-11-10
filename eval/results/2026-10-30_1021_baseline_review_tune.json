@@ -1,0 +1,210 @@
+{
+  "capability": "B",
+  "kind": "baseline_code_checks",
+  "dataset": "review_tune.jsonl",
+  "dataset_hash": "a1ad3842e12e",
+  "rules_hash": "f94921fe9097",
+  "model": null,
+  "prompt_hash": null,
+  "by_kind": {
+    "missing_condition": {
+      "tp": 3,
+      "recall": 100.0,
+      "precision": 100.0
+    },
+    "price_vs_catalog": {
+      "tp": 2,
+      "recall": 100.0,
+      "precision": 100.0
+    },
+    "price_vs_history": {
+      "tp": 2,
+      "recall": 100.0,
+      "precision": 100.0
+    },
+    "unit_mismatch": {
+      "tp": 2,
+      "recall": 100.0,
+      "precision": 100.0
+    },
+    "wording": {
+      "fn": 2,
+      "tp": 1,
+      "recall": 33.3,
+      "precision": 100.0
+    }
+  },
+  "total": {
+    "tp": 10,
+    "fn": 2,
+    "recall": 83.3,
+    "precision": 100.0
+  },
+  "rows": [
+    {
+      "id": "rt01",
+      "expected": [
+        [
+          "01.09.001.0030",
+          "missing_condition"
+        ]
+      ],
+      "found": [
+        [
+          "01.09.001.0030",
+          "missing_condition"
+        ]
+      ],
+      "seconds": 0.01
+    },
+    {
+      "id": "rt02",
+      "expected": [
+        [
+          "01.09.001.0040",
+          "price_vs_history"
+        ]
+      ],
+      "found": [
+        [
+          "01.09.001.0040",
+          "price_vs_history"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rt03",
+      "expected": [
+        [
+          "01.05.003.0010",
+          "price_vs_catalog"
+        ]
+      ],
+      "found": [
+        [
+          "01.05.003.0010",
+          "price_vs_catalog"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rt04",
+      "expected": [
+        [
+          "01.60.001.0010",
+          "unit_mismatch"
+        ]
+      ],
+      "found": [
+        [
+          "01.60.001.0010",
+          "unit_mismatch"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rt05",
+      "expected": [
+        [
+          "01.06.002.0300",
+          "wording"
+        ]
+      ],
+      "found": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "rt06",
+      "expected": [
+        [
+          null,
+          "wording"
+        ]
+      ],
+      "found": [
+        [
+          null,
+          "wording"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rt07",
+      "expected": [
+        [
+          "01.09.001.0100",
+          "missing_condition"
+        ],
+        [
+          "01.09.001.0230",
+          "price_vs_catalog"
+        ]
+      ],
+      "found": [
+        [
+          "01.09.001.0100",
+          "missing_condition"
+        ],
+        [
+          "01.09.001.0230",
+          "price_vs_catalog"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rt08",
+      "expected": [
+        [
+          "01.05.001.0140",
+          "wording"
+        ],
+        [
+          "01.24.009.0010",
+          "unit_mismatch"
+        ]
+      ],
+      "found": [
+        [
+          "01.24.009.0010",
+          "unit_mismatch"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rt09",
+      "expected": [
+        [
+          "01.09.001.0030",
+          "missing_condition"
+        ],
+        [
+          "01.29.001.0900",
+          "price_vs_history"
+        ]
+      ],
+      "found": [
+        [
+          "01.09.001.0030",
+          "missing_condition"
+        ],
+        [
+          "01.29.001.0900",
+          "price_vs_history"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rt10",
+      "expected": [],
+      "found": [],
+      "seconds": 0.0
+    }
+  ]
+}

@@ -1,0 +1,324 @@
+{
+  "capability": "A",
+  "kind": "agent",
+  "dataset": "match_tune.jsonl",
+  "dataset_hash": "bb2eeb651425",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_hash": {
+    "intake": "50d1855a285c",
+    "matcher": "4c991880c915"
+  },
+  "confidence": {
+    "search_weight": 0.7,
+    "review_below": 0.6
+  },
+  "summary_pct": {
+    "found": 78.6,
+    "wrong_suggestions": 5,
+    "lines": 17,
+    "no_match_items": 1
+  },
+  "rows": [
+    {
+      "id": "mt01",
+      "seconds": 5.51,
+      "found": 1,
+      "expected": 1,
+      "wrong": 1,
+      "lines": [
+        {
+          "code": "01.09.001.0100",
+          "correct": true,
+          "quantity": 120.0,
+          "unit": "מ\"ר",
+          "search_score": 96.9,
+          "model_confidence": "medium",
+          "alternatives": true,
+          "confidence": 0.86,
+          "needs_review": false
+        },
+        {
+          "code": "01.09.001.0060",
+          "correct": false,
+          "quantity": 120.0,
+          "unit": "מ\"ר",
+          "search_score": 97.7,
+          "model_confidence": "medium",
+          "alternatives": true,
+          "confidence": 0.86,
+          "needs_review": false
+        }
+      ],
+      "unmatched": [],
+      "warnings": []
+    },
+    {
+      "id": "mt02",
+      "seconds": 2.78,
+      "found": 1,
+      "expected": 1,
+      "wrong": 0,
+      "lines": [
+        {
+          "code": "01.09.001.0040",
+          "correct": true,
+          "quantity": 60.0,
+          "unit": "מ\"ר",
+          "search_score": 98.4,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.87,
+          "needs_review": false
+        }
+      ],
+      "unmatched": [],
+      "warnings": []
+    },
+    {
+      "id": "mt03",
+      "seconds": 4.98,
+      "found": 2,
+      "expected": 2,
+      "wrong": 1,
+      "lines": [
+        {
+          "code": "01.14.001.0060",
+          "correct": true,
+          "quantity": 80.0,
+          "unit": "מ\"ר",
+          "search_score": 98.4,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.87,
+          "needs_review": false
+        },
+        {
+          "code": "01.10.001.0037",
+          "correct": false,
+          "quantity": 80.0,
+          "unit": "מ\"ר",
+          "search_score": 99.2,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.87,
+          "needs_review": false
+        },
+        {
+          "code": "01.14.001.0060",
+          "correct": true,
+          "quantity": 80.0,
+          "unit": "מ\"ר",
+          "search_score": 96.9,
+          "model_confidence": "high",
+          "alternatives": false,
+          "confidence": 0.98,
+          "needs_review": false
+        },
+        {
+          "code": "01.14.001.0070",
+          "correct": true,
+          "quantity": 6.0,
+          "unit": "יח'",
+          "search_score": 100.0,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.88,
+          "needs_review": false
+        }
+      ],
+      "unmatched": [],
+      "warnings": []
+    },
+    {
+      "id": "mt04",
+      "seconds": 2.58,
+      "found": 0,
+      "expected": 2,
+      "wrong": 1,
+      "lines": [
+        {
+          "code": "01.06.002.0260",
+          "correct": false,
+          "quantity": 25.0,
+          "unit": "מ'",
+          "search_score": 49.2,
+          "model_confidence": "medium",
+          "alternatives": true,
+          "confidence": 0.52,
+          "needs_review": true
+        }
+      ],
+      "unmatched": [],
+      "warnings": []
+    },
+    {
+      "id": "mt05",
+      "seconds": 2.66,
+      "found": 0,
+      "expected": 1,
+      "wrong": 1,
+      "lines": [
+        {
+          "code": "01.02.001.0190",
+          "correct": false,
+          "quantity": 30.0,
+          "unit": "מ\"ר",
+          "search_score": 95.4,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.85,
+          "needs_review": true
+        }
+      ],
+      "unmatched": [],
+      "warnings": [
+        "עבור 'שיקום בטון מתפורר וטיפול בברזל חשוף וחלוד' נאמרה יחידה מ', אבל הסעיף נמדד ב-מ\"ר."
+      ]
+    },
+    {
+      "id": "mt06",
+      "seconds": 2.87,
+      "found": 1,
+      "expected": 1,
+      "wrong": 0,
+      "lines": [
+        {
+          "code": "01.06.001.0370",
+          "correct": true,
+          "quantity": 8.0,
+          "unit": "יח'",
+          "search_score": 91.2,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.82,
+          "needs_review": false
+        }
+      ],
+      "unmatched": [],
+      "warnings": []
+    },
+    {
+      "id": "mt07",
+      "seconds": 3.48,
+      "found": 2,
+      "expected": 2,
+      "wrong": 0,
+      "lines": [
+        {
+          "code": "01.24.005.0010",
+          "correct": true,
+          "quantity": 150.0,
+          "unit": "מ\"ר",
+          "search_score": 99.2,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.87,
+          "needs_review": false
+        },
+        {
+          "code": "01.05.003.0008",
+          "correct": true,
+          "quantity": 150.0,
+          "unit": "מ\"ר",
+          "search_score": 97.7,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.86,
+          "needs_review": false
+        }
+      ],
+      "unmatched": [],
+      "warnings": []
+    },
+    {
+      "id": "mt08",
+      "seconds": 2.99,
+      "found": 1,
+      "expected": 1,
+      "wrong": 0,
+      "lines": [
+        {
+          "code": "01.09.001.0230",
+          "correct": true,
+          "quantity": 12.0,
+          "unit": "מ'",
+          "search_score": 99.2,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.87,
+          "needs_review": false
+        }
+      ],
+      "unmatched": [],
+      "warnings": []
+    },
+    {
+      "id": "mt09",
+      "seconds": 3.25,
+      "found": 2,
+      "expected": 2,
+      "wrong": 0,
+      "lines": [
+        {
+          "code": "01.29.001.0100",
+          "correct": true,
+          "quantity": 4.0,
+          "unit": "יח'",
+          "search_score": 97.7,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.86,
+          "needs_review": false
+        },
+        {
+          "code": "01.29.001.0900",
+          "correct": true,
+          "quantity": 1.0,
+          "unit": "קומפ",
+          "search_score": 100.0,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.88,
+          "needs_review": true
+        }
+      ],
+      "unmatched": [],
+      "warnings": [
+        "עבור 'פירוק אנטנות וכבלים ישנים' נאמרה יחידה יח', אבל הסעיף נמדד ב-קומפ."
+      ]
+    },
+    {
+      "id": "mt10",
+      "seconds": 3.53,
+      "found": 1,
+      "expected": 1,
+      "wrong": 1,
+      "lines": [
+        {
+          "code": "01.05.001.0010",
+          "correct": true,
+          "quantity": 40.0,
+          "unit": "מ'",
+          "search_score": 99.2,
+          "model_confidence": "high",
+          "alternatives": true,
+          "confidence": 0.87,
+          "needs_review": false
+        },
+        {
+          "code": "01.60.001.0120",
+          "correct": false,
+          "quantity": 1.0,
+          "unit": "יח'",
+          "search_score": 49.2,
+          "model_confidence": "medium",
+          "alternatives": true,
+          "confidence": 0.52,
+          "needs_review": true
+        }
+      ],
+      "unmatched": [],
+      "warnings": []
+    }
+  ]
+}

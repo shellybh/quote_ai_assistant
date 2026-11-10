@@ -1,0 +1,2989 @@
+{
+  "note": "בדיוני, נכתב לפרויקט הקורס. אינו מבוסס על הצעות או תנאים אמיתיים.",
+  "count": 30,
+  "items": [
+    {
+      "id": "demo-prop-001",
+      "proposal_number": "D-2025-001",
+      "client_name": "לקוח דמו 01",
+      "org_name": "ועד הבית",
+      "project_name": "חידוש טיח וצבע בחזית הרחוב",
+      "project_address": "רחוב התאנה 24, עיר לדוגמה",
+      "background_text": "המבנה מוגדר לשימור. הטיח בחזיתות מתנתק ומתפורר במקומות רבים, ויש סדקים וצמחייה.",
+      "work_types": [
+        "facade_plaster"
+      ],
+      "exterior_work": true,
+      "validity_days": 30,
+      "issue_date": "2025-01-30",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.09.001.0030",
+          "code": "01.09.001.0030",
+          "description": "תוספת לטיח כנ\"ל עבור שליכטה צבעונית חרושתית על בסיס סיד .",
+          "unit": "מ\"ר",
+          "quantity": 571.0,
+          "unit_price": 97.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0100",
+          "code": "01.09.001.0100",
+          "description": "חידוש טיח לרבות הסרת שכבת צבע סיד במברשות פלדה עד לחשיפת הגרגרים של הטיח וביצוע בשכבה אחת של שליכטה משופשפת בשפשפת עץ",
+          "unit": "מ\"ר",
+          "quantity": 357.0,
+          "unit_price": 190.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0222",
+          "code": "01.09.001.0222",
+          "description": "עיבוד אף מים שקוע או בולט במשיכה",
+          "unit": "מ'",
+          "quantity": 34.0,
+          "unit_price": 240.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0230",
+          "code": "01.09.001.0230",
+          "description": "ייצוב ושיקום קרניז במשיכה )3-2 מדרגות)",
+          "unit": "מ'",
+          "quantity": 14.0,
+          "unit_price": 395.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0270",
+          "code": "01.09.001.0270",
+          "description": "ייצוב ושיקום טיח על בסיס סיד",
+          "unit": "מ\"ר",
+          "quantity": 56.0,
+          "unit_price": 340.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.29.001.0100",
+          "code": "01.29.001.0100",
+          "description": "העתקת מנוע מזגן קיים, כולל הכנסת צמת מזגן מתחת לטיח, הכל מבוצע מושלם ע\"י איש מיזוג כולל בדיקה ראשונית של המזגן טרם הביצוע",
+          "unit": "יח'",
+          "quantity": 3.0,
+          "unit_price": 2725.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-scaffolding_excluded",
+        "cond-schedule",
+        "cond-permits",
+        "cond-hidden_defects",
+        "cond-changes",
+        "cond-measurement",
+        "cond-waste",
+        "cond-warranty",
+        "cond-access",
+        "cond-samples"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 50.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 50.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-002",
+      "proposal_number": "D-2025-002",
+      "client_name": "לקוח דמו 02",
+      "org_name": "נציגות הבית המשותף",
+      "project_name": "ניקוי וכיחול חזית אבן",
+      "project_address": "רחוב הברוש 25, עיר לדוגמה",
+      "background_text": "קירות האבן מלוכלכים, הכיחול שחוק, וחלק מהאבנים רופפות או חסרות.",
+      "work_types": [
+        "facade_stone"
+      ],
+      "exterior_work": true,
+      "validity_days": 30,
+      "issue_date": "2025-03-03",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.14.001.0060",
+          "code": "01.14.001.0060",
+          "description": "שיקום פני קיר אבן לרבות ניקוי, יצוב אבנים רופפות, כיחול חדש ותיקון אבנים פגומות.",
+          "unit": "מ\"ר",
+          "quantity": 125.0,
+          "unit_price": 530.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.14.001.0070",
+          "code": "01.14.001.0070",
+          "description": "תוספת לשיקום פני אבן כנ\"ל עבור השלמת אבנים בודדות במקום חסרות או פגומות כדוגמת המקוריות",
+          "unit": "יח'",
+          "quantity": 23.0,
+          "unit_price": 590.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.60.001.0010",
+          "code": "01.60.001.0010",
+          "description": "פועל בניין מקצועי מכל סוג שהוא",
+          "unit": "ש\"ע",
+          "quantity": 48.0,
+          "unit_price": 96.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-scaffolding_excluded",
+        "cond-schedule",
+        "cond-permits",
+        "cond-utilities",
+        "cond-hidden_defects",
+        "cond-changes",
+        "cond-measurement",
+        "cond-waste",
+        "cond-access",
+        "cond-insurance"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 50.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 50.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-003",
+      "proposal_number": "D-2025-003",
+      "client_name": "לקוח דמו 03",
+      "org_name": "נציגות הבית המשותף",
+      "project_name": "תיקוני בטון במרפסות ובמעקות",
+      "project_address": "רחוב הרימון 39, עיר לדוגמה",
+      "background_text": "בתחתית המרפסות ובשוליהן הבטון מתקלף וברזל הזיון חשוף וחלוד.",
+      "work_types": [
+        "balconies_concrete",
+        "wood_windows"
+      ],
+      "exterior_work": true,
+      "validity_days": 30,
+      "issue_date": "2025-03-15",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.02.001.0180",
+          "code": "01.02.001.0180",
+          "description": "שיקום בטונים ברצועות בהם הבטון פגום והזיון חלוד ברוחב עד 25 ס\"מ בחומר תיקון צמנטי בלתי מתכווץ נושא תקן אירופאי 4-R",
+          "unit": "מ'",
+          "quantity": 104.0,
+          "unit_price": 295.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.02.001.0190",
+          "code": "01.02.001.0190",
+          "description": "שיקום בטונים אך בשטחים בהם הבטון פגום והזיון חלוד בחומר כנ\"ל. המדידה לפי שטח תיקון נטו.",
+          "unit": "מ\"ר",
+          "quantity": 23.0,
+          "unit_price": 1175.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.02.001.0200",
+          "code": "01.02.001.0200",
+          "description": "שיפוץ קירות בטון חשוף למרקם הבטון המקורי וגמר בצבע פוטציום סיליקט (רמת הפגיעות אינה עולה על %10(",
+          "unit": "מ\"ר",
+          "quantity": 19.0,
+          "unit_price": 370.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.06.001.0190",
+          "code": "01.06.001.0190",
+          "description": "רפפות עץ קליר לתריס גלילה במקום שבורות ו/או חסרות.",
+          "unit": "מ\"ר",
+          "quantity": 4.0,
+          "unit_price": 890.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.06.001.0370",
+          "code": "01.06.001.0370",
+          "description": "שיקום חלון עץ קיים בשטח של עד 1 מ\"ר",
+          "unit": "יח'",
+          "quantity": 10.0,
+          "unit_price": 2195.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.06.002.0260",
+          "code": "01.06.002.0260",
+          "description": "שיקום מעקה פלדה בגובה עד 50 ס\"מ במרפסות, גדרות, חדרי מדרגות",
+          "unit": "מ'",
+          "quantity": 47.0,
+          "unit_price": 750.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.06.004.0060",
+          "code": "01.06.004.0060",
+          "description": "ציר בדלת/ חלון לשימור",
+          "unit": "יח'",
+          "quantity": 8.0,
+          "unit_price": 88.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.11.002.0011",
+          "code": "01.11.002.0011",
+          "description": "חידוש צבע אטום לחלונות עץ.",
+          "unit": "מ\"ר",
+          "quantity": 27.0,
+          "unit_price": 82.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.11.002.0034",
+          "code": "01.11.002.0034",
+          "description": "חידוש צבע למעקות ברזל.",
+          "unit": "מ'",
+          "quantity": 39.0,
+          "unit_price": 110.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.24.006.0030",
+          "code": "01.24.006.0030",
+          "description": "פירוק חלונות עץ בשטח של עד 1 מ\"ר",
+          "unit": "יח'",
+          "quantity": 3.0,
+          "unit_price": 110.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-scaffolding_excluded",
+        "cond-schedule",
+        "cond-hidden_defects",
+        "cond-changes",
+        "cond-measurement",
+        "cond-waste",
+        "cond-warranty",
+        "cond-access",
+        "cond-samples"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 20.0
+        },
+        {
+          "description": "לאחר השלמת עבודות ההכנה והתיקונים",
+          "percent": 50.0
+        },
+        {
+          "description": "בגמר העבודה ופירוק הפיגום",
+          "percent": 30.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-004",
+      "proposal_number": "D-2025-004",
+      "client_name": "לקוח דמו 04",
+      "org_name": null,
+      "project_name": "איטום גג ומעקות",
+      "project_address": "רחוב השקד 28, עיר לדוגמה",
+      "background_text": "יש נזילות לדירות העליונות. האיטום בגג ישן וסדוק, והמרזבים סתומים.",
+      "work_types": [
+        "roof_waterproofing"
+      ],
+      "exterior_work": false,
+      "validity_days": 30,
+      "issue_date": "2025-04-05",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.05.001.0060",
+          "code": "01.05.001.0060",
+          "description": "קופסת קליטה למי גשם מפח אבץ כדוגמת המקורית",
+          "unit": "קומפ",
+          "quantity": 1,
+          "unit_price": 800.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.05.003.0010",
+          "code": "01.05.003.0010",
+          "description": "איטום רולקות ב-2 שכבות של רצועות חיזוק/חיפוי מיריעות ביטומניות משוכללות מושבחות בפולימר SBS, מסוג פוליפז או ש\"ע בעובי 4 מ\"מ כל אחת, עם שריון לבד פוליאסטר, לרבות רצועת חיזוק תחתונה ברוחב 30 ס\"מ עם ציפוי חול, רצועת חיפוי עליונה ברוחב 50 ס\"מ עם ציפוי אגרגט.",
+          "unit": "מ'",
+          "quantity": 67.0,
+          "unit_price": 70.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.05.003.0030",
+          "code": "01.05.003.0030",
+          "description": "קיבוע רצועות חיפוי ביטומניות על המעקות באזור הרולקות באמצעות פרופיל אלומיניום תיקני לרבות מילוי המרווח העליון שבין הפרופיל והמעקה ע\"י חומר אטימה אלסטומרי פוליאוריתני או אלסטומרי ביטומני",
+          "unit": "מ'",
+          "quantity": 47.0,
+          "unit_price": 43.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.05.003.0040",
+          "code": "01.05.003.0040",
+          "description": "איטום גגות על גבי איטום קיים, בשכבה אחת של יריעות ביטומניות משוכללות מושבחות בפולימר SBS מסוג פוליפז או ש\"ע בעובי 5 מ\"מ",
+          "unit": "מ\"ר",
+          "quantity": 182.0,
+          "unit_price": 135.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.24.005.0010",
+          "code": "01.24.005.0010",
+          "description": "קילוף יריעות איטום מעל גג קיים, עד לגילוי פני הבטון / בטון קל קיים",
+          "unit": "מ\"ר",
+          "quantity": 323.0,
+          "unit_price": 58.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-schedule",
+        "cond-utilities",
+        "cond-hidden_defects",
+        "cond-changes",
+        "cond-measurement",
+        "cond-warranty",
+        "cond-access",
+        "cond-insurance"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 50.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 50.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-005",
+      "proposal_number": "D-2025-005",
+      "client_name": "לקוח דמו 05",
+      "org_name": "ועד הבית",
+      "project_name": "שיקום חלונות ותריסי עץ",
+      "project_address": "רחוב התאנה 52, עיר לדוגמה",
+      "background_text": "החלונות והתריסים המקוריים מעץ. חלק מהכנפות רקובות, הרפפות שבורות והפרזול חסר.",
+      "work_types": [
+        "wood_windows"
+      ],
+      "exterior_work": false,
+      "validity_days": 30,
+      "issue_date": "2025-05-07",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.06.001.0430",
+          "code": "01.06.001.0430",
+          "description": "שיקום תריס ערבי מעץ בשטח העולה על 1.0 מ\"ר ועד 1.5 מ\"ר",
+          "unit": "יח'",
+          "quantity": 2.0,
+          "unit_price": 2890.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.11.002.0011",
+          "code": "01.11.002.0011",
+          "description": "חידוש צבע אטום לחלונות עץ.",
+          "unit": "מ\"ר",
+          "quantity": 29.0,
+          "unit_price": 92.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.11.002.0012",
+          "code": "01.11.002.0012",
+          "description": "חידוש צבע אטום לתריסי עץ.",
+          "unit": "מ\"ר",
+          "quantity": 36.0,
+          "unit_price": 110.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-schedule",
+        "cond-utilities",
+        "cond-changes",
+        "cond-measurement",
+        "cond-waste",
+        "cond-warranty",
+        "cond-access",
+        "cond-samples"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 50.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 50.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-006",
+      "proposal_number": "D-2025-006",
+      "client_name": "לקוח דמו 06",
+      "org_name": null,
+      "project_name": "שיקום מסגרות ברזל מקוריות",
+      "project_address": "רחוב הזית 33, עיר לדוגמה",
+      "background_text": "המעקות והסורגים המקוריים חלודים, חלק מהעוגנים רופפים, ויש חלקי עיטור חסרים.",
+      "work_types": [
+        "railings_grilles"
+      ],
+      "exterior_work": true,
+      "validity_days": 30,
+      "issue_date": "2025-06-03",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.06.002.0290",
+          "code": "01.06.002.0290",
+          "description": "שיקום מעקה פלדה מעוטר כנ\"ל אך בגובה העולה על 50 ס\"מ ועד 1.1 מ'",
+          "unit": "מ'",
+          "quantity": 21.0,
+          "unit_price": 1600.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.06.002.0300",
+          "code": "01.06.002.0300",
+          "description": "שיקום סורג בשטח של עד 1 מ\"ר",
+          "unit": "יח'",
+          "quantity": 2.0,
+          "unit_price": 590.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.11.002.0034",
+          "code": "01.11.002.0034",
+          "description": "חידוש צבע למעקות ברזל.",
+          "unit": "מ'",
+          "quantity": 7.0,
+          "unit_price": 115.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.24.040.0010",
+          "code": "01.24.040.0010",
+          "description": "פינוי פסולת (של אחרים) הקיימת באתר - לפני תחילת עבודות הקבלן בשטח. הפינוי למקום שפך מאושר ע\"י הרשויות לרבות תשלום אגרות",
+          "unit": "מ\"ק",
+          "quantity": 12.0,
+          "unit_price": 59.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.60.001.0010",
+          "code": "01.60.001.0010",
+          "description": "פועל בניין מקצועי מכל סוג שהוא",
+          "unit": "ש\"ע",
+          "quantity": 8.0,
+          "unit_price": 105.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-scaffolding_included",
+        "cond-schedule",
+        "cond-changes",
+        "cond-measurement",
+        "cond-warranty",
+        "cond-access",
+        "cond-insurance"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה עם החתימה על ההצעה",
+          "percent": 30.0
+        },
+        {
+          "description": "עם השלמת מחצית מהעבודה",
+          "percent": 40.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 30.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-007",
+      "proposal_number": "D-2025-007",
+      "client_name": "לקוח דמו 07",
+      "org_name": null,
+      "project_name": "פירוק והרכבה מחדש של גג רעפים",
+      "project_address": "רחוב הזית 3, עיר לדוגמה",
+      "background_text": "גג הרעפים המקורי דולף, חלק מהרעפים שבורים וקורות העץ נפגעו מרטיבות.",
+      "work_types": [
+        "tile_roof"
+      ],
+      "exterior_work": true,
+      "validity_days": 30,
+      "issue_date": "2025-06-14",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.05.001.0050",
+          "code": "01.05.001.0050",
+          "description": "מרזב פח אבץ מרובע כדוגמת המקורי",
+          "unit": "מ'",
+          "quantity": 39.0,
+          "unit_price": 530.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.20.002.0010",
+          "code": "01.20.002.0010",
+          "description": "פירוק זהיר, ניקוי והרכבה מחדש של רעפים קיימים, לרבות רוכבים, מרישים, חיבורים, פלשונגים, השלמת רעפים חדשים במקום חסרים או פסולים וכו' הכל כדוגמת המקור.",
+          "unit": "מ\"ר",
+          "quantity": 216.0,
+          "unit_price": 335.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.20.002.0045",
+          "code": "01.20.002.0045",
+          "description": "חיפוי גג ברעפי חרס חדשים כדוגמת מרסי (תוצרת חסין אש) לרבות רוכבים, מרישים, חיבורים, פלשונגים וכו'.",
+          "unit": "מ\"ר",
+          "quantity": 52.0,
+          "unit_price": 295.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.20.002.0170",
+          "code": "01.20.002.0170",
+          "description": "בידוד מזרוני צמר זכוכית בעובי 6-5 ס\"מ עם ציפוי רדיד אלומיניום",
+          "unit": "מ\"ר",
+          "quantity": 175.0,
+          "unit_price": 43.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.24.040.0010",
+          "code": "01.24.040.0010",
+          "description": "פינוי פסולת (של אחרים) הקיימת באתר - לפני תחילת עבודות הקבלן בשטח. הפינוי למקום שפך מאושר ע\"י הרשויות לרבות תשלום אגרות",
+          "unit": "מ\"ק",
+          "quantity": 9.0,
+          "unit_price": 58.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.60.001.0010",
+          "code": "01.60.001.0010",
+          "description": "פועל בניין מקצועי מכל סוג שהוא",
+          "unit": "ש\"ע",
+          "quantity": 64.0,
+          "unit_price": 100.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-scaffolding_included",
+        "cond-schedule",
+        "cond-utilities",
+        "cond-hidden_defects",
+        "cond-changes",
+        "cond-measurement",
+        "cond-waste",
+        "cond-warranty",
+        "cond-access",
+        "cond-insurance"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 25.0
+        },
+        {
+          "description": "לאחר חודש עבודה",
+          "percent": 25.0
+        },
+        {
+          "description": "לאחר חודשיים עבודה",
+          "percent": 25.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 25.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-008",
+      "proposal_number": "D-2025-008",
+      "client_name": "לקוח דמו 08",
+      "org_name": null,
+      "project_name": "חידוש חדר מדרגות לשימור",
+      "project_address": "רחוב הערבה 32, עיר לדוגמה",
+      "background_text": "חדר המדרגות המקורי: מדרגות טראצו שחוקות, טיח פנים מתקלף ומעקה עץ פגוע.",
+      "work_types": [
+        "stairwell",
+        "facade_plaster"
+      ],
+      "exterior_work": true,
+      "validity_days": 30,
+      "issue_date": "2025-06-29",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.08.001.0040",
+          "code": "01.08.001.0040",
+          "description": "גוף תאורה בחדר מדרגות. במחיר יסוד 80 ש\"ח.",
+          "unit": "יח'",
+          "quantity": 12.0,
+          "unit_price": 235.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0025",
+          "code": "01.09.001.0025",
+          "description": "טיח פנים גמר חלק על בסיס סיד הידראולי 3.5 מגה פסקל משופשף בשפשפת עץ",
+          "unit": "מ\"ר",
+          "quantity": 48.0,
+          "unit_price": 450.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0040",
+          "code": "01.09.001.0040",
+          "description": "הסרת צמחיה ומיקרוביולוגיה",
+          "unit": "מ\"ר",
+          "quantity": 61.0,
+          "unit_price": 61.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0100",
+          "code": "01.09.001.0100",
+          "description": "חידוש טיח לרבות הסרת שכבת צבע סיד במברשות פלדה עד לחשיפת הגרגרים של הטיח וביצוע בשכבה אחת של שליכטה משופשפת בשפשפת עץ",
+          "unit": "מ\"ר",
+          "quantity": 231.0,
+          "unit_price": 240.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0194",
+          "code": "01.09.001.0194",
+          "description": "טיח חוץ סרגל שני כוונים לרבות שכבת הרבצה עם מייקים על בסיס סיד אווירי חרושתי ושכבת גמר דמוי טיח זרדים",
+          "unit": "מ\"ר",
+          "quantity": 84.0,
+          "unit_price": 690.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0222",
+          "code": "01.09.001.0222",
+          "description": "עיבוד אף מים שקוע או בולט במשיכה",
+          "unit": "מ'",
+          "quantity": 20.0,
+          "unit_price": 300.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0230",
+          "code": "01.09.001.0230",
+          "description": "ייצוב ושיקום קרניז במשיכה )3-2 מדרגות)",
+          "unit": "מ'",
+          "quantity": 16.0,
+          "unit_price": 490.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0270",
+          "code": "01.09.001.0270",
+          "description": "ייצוב ושיקום טיח על בסיס סיד",
+          "unit": "מ\"ר",
+          "quantity": 158.0,
+          "unit_price": 425.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.10.001.0090",
+          "code": "01.10.001.0090",
+          "description": "תיקון וליטוש מדרגות טראצו (רום ושלח) לרבות מריחה בסילר",
+          "unit": "מ'",
+          "quantity": 44.0,
+          "unit_price": 425.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.10.001.0100",
+          "code": "01.10.001.0100",
+          "description": "תיקון וליטוש משטחי טראצו לרבות מריחה בסילר",
+          "unit": "מ\"ר",
+          "quantity": 22.0,
+          "unit_price": 340.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.11.001.0010",
+          "code": "01.11.001.0010",
+          "description": "צביעת שטחים אופקיים ואנכיים בצבע סיד .",
+          "unit": "מ\"ר",
+          "quantity": 275.0,
+          "unit_price": 68.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.29.001.0100",
+          "code": "01.29.001.0100",
+          "description": "העתקת מנוע מזגן קיים, כולל הכנסת צמת מזגן מתחת לטיח, הכל מבוצע מושלם ע\"י איש מיזוג כולל בדיקה ראשונית של המזגן טרם הביצוע",
+          "unit": "יח'",
+          "quantity": 6.0,
+          "unit_price": 3485.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.29.001.0900",
+          "code": "01.29.001.0900",
+          "description": "פירוק וסילוק אנטנות, דודים, חלקי מתכת, צינורות, כבלים וחוטים מיותרים מהגג וכל החזיתות",
+          "unit": "קומפ",
+          "quantity": 1,
+          "unit_price": 1135.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-scaffolding_excluded",
+        "cond-schedule",
+        "cond-permits",
+        "cond-utilities",
+        "cond-hidden_defects",
+        "cond-changes",
+        "cond-measurement",
+        "cond-access",
+        "cond-samples"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 50.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 50.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-009",
+      "proposal_number": "D-2025-009",
+      "client_name": "לקוח דמו 09",
+      "org_name": null,
+      "project_name": "טיפול בלחות עולה במסד המבנה",
+      "project_address": "רחוב הרימון 58, עיר לדוגמה",
+      "background_text": "בתחתית הקירות יש רטיבות עולה: הטיח מתפורר, ויש כתמי מלח עד גובה של כמטר.",
+      "work_types": [
+        "rising_damp"
+      ],
+      "exterior_work": false,
+      "validity_days": 30,
+      "issue_date": "2025-07-03",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.09.001.0207",
+          "code": "01.09.001.0207",
+          "description": "טיח מסיר לחות על בסיס סיד ע\"ג מסד, בעובי 5-4 ס\"מ.",
+          "unit": "מ\"ר",
+          "quantity": 22.0,
+          "unit_price": 795.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.24.009.0010",
+          "code": "01.24.009.0010",
+          "description": "פירוק טיח צמנט מקירות עד לגילוי התשתית",
+          "unit": "מ\"ר",
+          "quantity": 59.0,
+          "unit_price": 58.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.60.001.0010",
+          "code": "01.60.001.0010",
+          "description": "פועל בניין מקצועי מכל סוג שהוא",
+          "unit": "ש\"ע",
+          "quantity": 32.0,
+          "unit_price": 105.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-schedule",
+        "cond-utilities",
+        "cond-hidden_defects",
+        "cond-changes",
+        "cond-measurement",
+        "cond-waste",
+        "cond-warranty"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 50.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 50.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-010",
+      "proposal_number": "D-2025-010",
+      "client_name": "לקוח דמו 10",
+      "org_name": "ועד הבית",
+      "project_name": "שחזור פרטי טיח מעוטרים",
+      "project_address": "רחוב האלה 21, עיר לדוגמה",
+      "background_text": "בחזית יש קרניזים, מסגרות מעוטרות סביב החלונות ופילסטרים. חלקם סדוקים וחלקם חסרים.",
+      "work_types": [
+        "ornaments"
+      ],
+      "exterior_work": true,
+      "validity_days": 30,
+      "issue_date": "2025-07-29",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.03.001.0010",
+          "code": "01.03.001.0010",
+          "description": "ניקוי ושיקום מסגרת פריקסטים מבטון מסביב לחלון (אדן חלון, מזוזות ומשקוף).",
+          "unit": "מ'",
+          "quantity": 11.0,
+          "unit_price": 350.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0215",
+          "code": "01.09.001.0215",
+          "description": "עיבוד קרניז במשיכה )2-3 מדרגות) הכל לפי המקור.",
+          "unit": "מ'",
+          "quantity": 32.0,
+          "unit_price": 1385.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0330",
+          "code": "01.09.001.0330",
+          "description": "ייצוב ושיקום כותרת לעמוד",
+          "unit": "יח'",
+          "quantity": 5.0,
+          "unit_price": 1640.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0340",
+          "code": "01.09.001.0340",
+          "description": "ייצוב ושיקום עיטור בשטח של עד 1 מ\"ר",
+          "unit": "יח'",
+          "quantity": 5.0,
+          "unit_price": 1740.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.24.040.0010",
+          "code": "01.24.040.0010",
+          "description": "פינוי פסולת (של אחרים) הקיימת באתר - לפני תחילת עבודות הקבלן בשטח. הפינוי למקום שפך מאושר ע\"י הרשויות לרבות תשלום אגרות",
+          "unit": "מ\"ק",
+          "quantity": 5.5,
+          "unit_price": 56.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-scaffolding_included",
+        "cond-schedule",
+        "cond-permits",
+        "cond-utilities",
+        "cond-changes",
+        "cond-measurement",
+        "cond-samples"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 50.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 50.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-011",
+      "proposal_number": "D-2025-011",
+      "client_name": "לקוח דמו 11",
+      "org_name": null,
+      "project_name": "שיקום חזיתות טיח — מבנה מגורים משנות ה-30",
+      "project_address": "רחוב האלה 17, עיר לדוגמה",
+      "background_text": "המבנה מוגדר לשימור. הטיח בחזיתות מתנתק ומתפורר במקומות רבים, ויש סדקים וצמחייה.",
+      "work_types": [
+        "facade_plaster",
+        "tile_roof"
+      ],
+      "exterior_work": true,
+      "validity_days": 30,
+      "issue_date": "2025-08-06",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.05.001.0050",
+          "code": "01.05.001.0050",
+          "description": "מרזב פח אבץ מרובע כדוגמת המקורי",
+          "unit": "מ'",
+          "quantity": 33.0,
+          "unit_price": 515.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0030",
+          "code": "01.09.001.0030",
+          "description": "תוספת לטיח כנ\"ל עבור שליכטה צבעונית חרושתית על בסיס סיד .",
+          "unit": "מ\"ר",
+          "quantity": 163.0,
+          "unit_price": 110.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0040",
+          "code": "01.09.001.0040",
+          "description": "הסרת צמחיה ומיקרוביולוגיה",
+          "unit": "מ\"ר",
+          "quantity": 385.0,
+          "unit_price": 58.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0100",
+          "code": "01.09.001.0100",
+          "description": "חידוש טיח לרבות הסרת שכבת צבע סיד במברשות פלדה עד לחשיפת הגרגרים של הטיח וביצוע בשכבה אחת של שליכטה משופשפת בשפשפת עץ",
+          "unit": "מ\"ר",
+          "quantity": 131.0,
+          "unit_price": 225.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0228",
+          "code": "01.09.001.0228",
+          "description": "ייצוב ושיקום קרניז במשיכה )1 מדרגה)",
+          "unit": "מ'",
+          "quantity": 46.0,
+          "unit_price": 340.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0270",
+          "code": "01.09.001.0270",
+          "description": "ייצוב ושיקום טיח על בסיס סיד",
+          "unit": "מ\"ר",
+          "quantity": 32.0,
+          "unit_price": 390.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.11.001.0010",
+          "code": "01.11.001.0010",
+          "description": "צביעת שטחים אופקיים ואנכיים בצבע סיד .",
+          "unit": "מ\"ר",
+          "quantity": 221.0,
+          "unit_price": 70.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.20.002.0010",
+          "code": "01.20.002.0010",
+          "description": "פירוק זהיר, ניקוי והרכבה מחדש של רעפים קיימים, לרבות רוכבים, מרישים, חיבורים, פלשונגים, השלמת רעפים חדשים במקום חסרים או פסולים וכו' הכל כדוגמת המקור.",
+          "unit": "מ\"ר",
+          "quantity": 43.0,
+          "unit_price": 340.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.20.002.0045",
+          "code": "01.20.002.0045",
+          "description": "חיפוי גג ברעפי חרס חדשים כדוגמת מרסי (תוצרת חסין אש) לרבות רוכבים, מרישים, חיבורים, פלשונגים וכו'.",
+          "unit": "מ\"ר",
+          "quantity": 79.0,
+          "unit_price": 290.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.20.002.0050",
+          "code": "01.20.002.0050",
+          "description": "החלפת רוכבי שבורים או השלמת רוכבים חסרים כדוגמת הקיים.",
+          "unit": "יח'",
+          "quantity": 12.0,
+          "unit_price": 55.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.20.002.0170",
+          "code": "01.20.002.0170",
+          "description": "בידוד מזרוני צמר זכוכית בעובי 6-5 ס\"מ עם ציפוי רדיד אלומיניום",
+          "unit": "מ\"ר",
+          "quantity": 74.0,
+          "unit_price": 46.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.29.001.0900",
+          "code": "01.29.001.0900",
+          "description": "פירוק וסילוק אנטנות, דודים, חלקי מתכת, צינורות, כבלים וחוטים מיותרים מהגג וכל החזיתות",
+          "unit": "קומפ",
+          "quantity": 1,
+          "unit_price": 1055.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-scaffolding_excluded",
+        "cond-schedule",
+        "cond-permits",
+        "cond-utilities",
+        "cond-hidden_defects",
+        "cond-changes",
+        "cond-measurement",
+        "cond-waste",
+        "cond-access",
+        "cond-samples",
+        "cond-insurance"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 25.0
+        },
+        {
+          "description": "לאחר חודש עבודה",
+          "percent": 25.0
+        },
+        {
+          "description": "לאחר חודשיים עבודה",
+          "percent": 25.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 25.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-012",
+      "proposal_number": "D-2025-012",
+      "client_name": "לקוח דמו 12",
+      "org_name": null,
+      "project_name": "שיקום חזית אבן כורכר",
+      "project_address": "רחוב התאנה 17, עיר לדוגמה",
+      "background_text": "קירות האבן מלוכלכים, הכיחול שחוק, וחלק מהאבנים רופפות או חסרות.",
+      "work_types": [
+        "facade_stone",
+        "balconies_concrete"
+      ],
+      "exterior_work": true,
+      "validity_days": 30,
+      "issue_date": "2025-08-13",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.02.001.0180",
+          "code": "01.02.001.0180",
+          "description": "שיקום בטונים ברצועות בהם הבטון פגום והזיון חלוד ברוחב עד 25 ס\"מ בחומר תיקון צמנטי בלתי מתכווץ נושא תקן אירופאי 4-R",
+          "unit": "מ'",
+          "quantity": 110.0,
+          "unit_price": 325.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.03.001.0010",
+          "code": "01.03.001.0010",
+          "description": "ניקוי ושיקום מסגרת פריקסטים מבטון מסביב לחלון (אדן חלון, מזוזות ומשקוף).",
+          "unit": "מ'",
+          "quantity": 23.0,
+          "unit_price": 345.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0040",
+          "code": "01.09.001.0040",
+          "description": "הסרת צמחיה ומיקרוביולוגיה",
+          "unit": "מ\"ר",
+          "quantity": 165.0,
+          "unit_price": 59.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.11.002.0034",
+          "code": "01.11.002.0034",
+          "description": "חידוש צבע למעקות ברזל.",
+          "unit": "מ'",
+          "quantity": 15.0,
+          "unit_price": 115.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.14.001.0036",
+          "code": "01.14.001.0036",
+          "description": "חיזוק תשתית ע\"י קונסולידציה ב\"מי סיד\" על בסיס סיד הידראולי",
+          "unit": "מ\"ר",
+          "quantity": 23.0,
+          "unit_price": 91.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.14.001.0060",
+          "code": "01.14.001.0060",
+          "description": "שיקום פני קיר אבן לרבות ניקוי, יצוב אבנים רופפות, כיחול חדש ותיקון אבנים פגומות.",
+          "unit": "מ\"ר",
+          "quantity": 91.0,
+          "unit_price": 550.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.14.001.0086",
+          "code": "01.14.001.0086",
+          "description": "פין כנ\"ל אך מנירוסטה",
+          "unit": "יח'",
+          "quantity": 66.0,
+          "unit_price": 165.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.60.001.0010",
+          "code": "01.60.001.0010",
+          "description": "פועל בניין מקצועי מכל סוג שהוא",
+          "unit": "ש\"ע",
+          "quantity": 56.0,
+          "unit_price": 105.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-scaffolding_included",
+        "cond-schedule",
+        "cond-permits",
+        "cond-utilities",
+        "cond-hidden_defects",
+        "cond-changes",
+        "cond-measurement",
+        "cond-warranty",
+        "cond-access"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 25.0
+        },
+        {
+          "description": "לאחר חודש עבודה",
+          "percent": 25.0
+        },
+        {
+          "description": "לאחר חודשיים עבודה",
+          "percent": 25.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 25.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-013",
+      "proposal_number": "D-2025-013",
+      "client_name": "לקוח דמו 13",
+      "org_name": null,
+      "project_name": "שיקום מרפסות ובטון חשוף",
+      "project_address": "רחוב הברוש 17, עיר לדוגמה",
+      "background_text": "בתחתית המרפסות ובשוליהן הבטון מתקלף וברזל הזיון חשוף וחלוד.",
+      "work_types": [
+        "balconies_concrete"
+      ],
+      "exterior_work": true,
+      "validity_days": 30,
+      "issue_date": "2025-11-05",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.02.001.0180",
+          "code": "01.02.001.0180",
+          "description": "שיקום בטונים ברצועות בהם הבטון פגום והזיון חלוד ברוחב עד 25 ס\"מ בחומר תיקון צמנטי בלתי מתכווץ נושא תקן אירופאי 4-R",
+          "unit": "מ'",
+          "quantity": 107.0,
+          "unit_price": 335.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.02.001.0200",
+          "code": "01.02.001.0200",
+          "description": "שיפוץ קירות בטון חשוף למרקם הבטון המקורי וגמר בצבע פוטציום סיליקט (רמת הפגיעות אינה עולה על %10(",
+          "unit": "מ\"ר",
+          "quantity": 112.0,
+          "unit_price": 370.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.03.001.0120",
+          "code": "01.03.001.0120",
+          "description": "ניקוי ושיקום מעקה פריקסטים מבטון לרבות קופינג כדוגמת הקיים.",
+          "unit": "מ'",
+          "quantity": 32.0,
+          "unit_price": 1080.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.06.002.0260",
+          "code": "01.06.002.0260",
+          "description": "שיקום מעקה פלדה בגובה עד 50 ס\"מ במרפסות, גדרות, חדרי מדרגות",
+          "unit": "מ'",
+          "quantity": 52.0,
+          "unit_price": 780.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.11.002.0034",
+          "code": "01.11.002.0034",
+          "description": "חידוש צבע למעקות ברזל.",
+          "unit": "מ'",
+          "quantity": 30.0,
+          "unit_price": 125.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.60.001.0010",
+          "code": "01.60.001.0010",
+          "description": "פועל בניין מקצועי מכל סוג שהוא",
+          "unit": "ש\"ע",
+          "quantity": 40.0,
+          "unit_price": 105.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-scaffolding_included",
+        "cond-schedule",
+        "cond-utilities",
+        "cond-hidden_defects",
+        "cond-changes",
+        "cond-measurement",
+        "cond-waste",
+        "cond-access"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 25.0
+        },
+        {
+          "description": "לאחר חודש עבודה",
+          "percent": 25.0
+        },
+        {
+          "description": "לאחר חודשיים עבודה",
+          "percent": 25.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 25.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-014",
+      "proposal_number": "D-2025-014",
+      "client_name": "לקוח דמו 14",
+      "org_name": null,
+      "project_name": "איטום גג שטוח",
+      "project_address": "רחוב הדקל 52, עיר לדוגמה",
+      "background_text": "יש נזילות לדירות העליונות. האיטום בגג ישן וסדוק, והמרזבים סתומים.",
+      "work_types": [
+        "roof_waterproofing"
+      ],
+      "exterior_work": false,
+      "validity_days": 30,
+      "issue_date": "2025-11-26",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.02.004.0020",
+          "code": "01.02.004.0020",
+          "description": "רולקות משולשות במידות 10x10 ס\"מ מטיט צמנט 3:1 (איטום הרולקה נמדד בנפרד)",
+          "unit": "מ'",
+          "quantity": 29.0,
+          "unit_price": 49.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.05.001.0050",
+          "code": "01.05.001.0050",
+          "description": "מרזב פח אבץ מרובע כדוגמת המקורי",
+          "unit": "מ'",
+          "quantity": 31.0,
+          "unit_price": 530.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.05.001.0060",
+          "code": "01.05.001.0060",
+          "description": "קופסת קליטה למי גשם מפח אבץ כדוגמת המקורית",
+          "unit": "קומפ",
+          "quantity": 1,
+          "unit_price": 790.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.05.003.0008",
+          "code": "01.05.003.0008",
+          "description": "איטום גגות שטוחים ב-2 שכבות של יריעות ביטומניות אלסטומריות עם ציפוי אגרגט בשכבה העליונה מושבחות בפולימר SBS, מסוג פוליפז או ש\"ע בעובי 4 מ\"מ",
+          "unit": "מ\"ר",
+          "quantity": 204.0,
+          "unit_price": 140.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.05.003.0010",
+          "code": "01.05.003.0010",
+          "description": "איטום רולקות ב-2 שכבות של רצועות חיזוק/חיפוי מיריעות ביטומניות משוכללות מושבחות בפולימר SBS, מסוג פוליפז או ש\"ע בעובי 4 מ\"מ כל אחת, עם שריון לבד פוליאסטר, לרבות רצועת חיזוק תחתונה ברוחב 30 ס\"מ עם ציפוי חול, רצועת חיפוי עליונה ברוחב 50 ס\"מ עם ציפוי אגרגט.",
+          "unit": "מ'",
+          "quantity": 85.0,
+          "unit_price": 66.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.24.005.0010",
+          "code": "01.24.005.0010",
+          "description": "קילוף יריעות איטום מעל גג קיים, עד לגילוי פני הבטון / בטון קל קיים",
+          "unit": "מ\"ר",
+          "quantity": 371.0,
+          "unit_price": 61.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.24.005.0050",
+          "code": "01.24.005.0050",
+          "description": "בדיקת אטימות של גגות ומרפסות",
+          "unit": "מ\"ר",
+          "quantity": 67.0,
+          "unit_price": 21.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-schedule",
+        "cond-utilities",
+        "cond-hidden_defects",
+        "cond-changes",
+        "cond-measurement",
+        "cond-warranty",
+        "cond-access"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 50.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 50.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-015",
+      "proposal_number": "D-2025-015",
+      "client_name": "לקוח דמו 15",
+      "org_name": null,
+      "project_name": "שיקום חלונות ותריסי עץ",
+      "project_address": "רחוב האלה 21, עיר לדוגמה",
+      "background_text": "החלונות והתריסים המקוריים מעץ. חלק מהכנפות רקובות, הרפפות שבורות והפרזול חסר.",
+      "work_types": [
+        "wood_windows",
+        "railings_grilles"
+      ],
+      "exterior_work": true,
+      "validity_days": 30,
+      "issue_date": "2025-12-04",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.06.001.0190",
+          "code": "01.06.001.0190",
+          "description": "רפפות עץ קליר לתריס גלילה במקום שבורות ו/או חסרות.",
+          "unit": "מ\"ר",
+          "quantity": 4.0,
+          "unit_price": 875.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.06.001.0370",
+          "code": "01.06.001.0370",
+          "description": "שיקום חלון עץ קיים בשטח של עד 1 מ\"ר",
+          "unit": "יח'",
+          "quantity": 2.0,
+          "unit_price": 2365.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.06.002.0260",
+          "code": "01.06.002.0260",
+          "description": "שיקום מעקה פלדה בגובה עד 50 ס\"מ במרפסות, גדרות, חדרי מדרגות",
+          "unit": "מ'",
+          "quantity": 33.0,
+          "unit_price": 735.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.06.004.0060",
+          "code": "01.06.004.0060",
+          "description": "ציר בדלת/ חלון לשימור",
+          "unit": "יח'",
+          "quantity": 28.0,
+          "unit_price": 88.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.11.002.0011",
+          "code": "01.11.002.0011",
+          "description": "חידוש צבע אטום לחלונות עץ.",
+          "unit": "מ\"ר",
+          "quantity": 26.0,
+          "unit_price": 82.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.11.002.0012",
+          "code": "01.11.002.0012",
+          "description": "חידוש צבע אטום לתריסי עץ.",
+          "unit": "מ\"ר",
+          "quantity": 7.0,
+          "unit_price": 105.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.60.001.0010",
+          "code": "01.60.001.0010",
+          "description": "פועל בניין מקצועי מכל סוג שהוא",
+          "unit": "ש\"ע",
+          "quantity": 64.0,
+          "unit_price": 97.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-scaffolding_excluded",
+        "cond-schedule",
+        "cond-changes",
+        "cond-measurement",
+        "cond-waste",
+        "cond-warranty",
+        "cond-access",
+        "cond-samples"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 20.0
+        },
+        {
+          "description": "לאחר השלמת עבודות ההכנה והתיקונים",
+          "percent": 50.0
+        },
+        {
+          "description": "בגמר העבודה ופירוק הפיגום",
+          "percent": 30.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-016",
+      "proposal_number": "D-2026-001",
+      "client_name": "לקוח דמו 16",
+      "org_name": null,
+      "project_name": "שיקום מעקות מרפסות ושער כניסה",
+      "project_address": "רחוב הערבה 37, עיר לדוגמה",
+      "background_text": "המעקות והסורגים המקוריים חלודים, חלק מהעוגנים רופפים, ויש חלקי עיטור חסרים.",
+      "work_types": [
+        "railings_grilles"
+      ],
+      "exterior_work": true,
+      "validity_days": 30,
+      "issue_date": "2026-01-07",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.06.002.0260",
+          "code": "01.06.002.0260",
+          "description": "שיקום מעקה פלדה בגובה עד 50 ס\"מ במרפסות, גדרות, חדרי מדרגות",
+          "unit": "מ'",
+          "quantity": 33.0,
+          "unit_price": 715.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.11.002.0034",
+          "code": "01.11.002.0034",
+          "description": "חידוש צבע למעקות ברזל.",
+          "unit": "מ'",
+          "quantity": 41.0,
+          "unit_price": 96.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.11.002.0035",
+          "code": "01.11.002.0035",
+          "description": "חידוש צבע לסורגי ברזל.",
+          "unit": "מ\"ר",
+          "quantity": 11.0,
+          "unit_price": 110.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-scaffolding_included",
+        "cond-schedule",
+        "cond-utilities",
+        "cond-changes",
+        "cond-measurement",
+        "cond-warranty",
+        "cond-access"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 50.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 50.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-017",
+      "proposal_number": "D-2026-002",
+      "client_name": "לקוח דמו 17",
+      "org_name": "נציגות הבית המשותף",
+      "project_name": "פירוק והרכבה מחדש של גג רעפים",
+      "project_address": "רחוב התאנה 33, עיר לדוגמה",
+      "background_text": "גג הרעפים המקורי דולף, חלק מהרעפים שבורים וקורות העץ נפגעו מרטיבות.",
+      "work_types": [
+        "tile_roof",
+        "ornaments"
+      ],
+      "exterior_work": true,
+      "validity_days": 30,
+      "issue_date": "2026-02-05",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.03.001.0010",
+          "code": "01.03.001.0010",
+          "description": "ניקוי ושיקום מסגרת פריקסטים מבטון מסביב לחלון (אדן חלון, מזוזות ומשקוף).",
+          "unit": "מ'",
+          "quantity": 20.0,
+          "unit_price": 305.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0215",
+          "code": "01.09.001.0215",
+          "description": "עיבוד קרניז במשיכה )2-3 מדרגות) הכל לפי המקור.",
+          "unit": "מ'",
+          "quantity": 29.0,
+          "unit_price": 1285.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0260",
+          "code": "01.09.001.0260",
+          "description": "ייצוב ושיקום מסגרת מעוטרת סביב פתח, במשיכה.",
+          "unit": "מ'",
+          "quantity": 32.0,
+          "unit_price": 630.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0340",
+          "code": "01.09.001.0340",
+          "description": "ייצוב ושיקום עיטור בשטח של עד 1 מ\"ר",
+          "unit": "יח'",
+          "quantity": 2.0,
+          "unit_price": 1490.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.20.001.0020",
+          "code": "01.20.001.0020",
+          "description": "תיקון וחיזוק קונסטרוקצית העץ של גג רעפים קיים לרבות השלמות של לוחות עץ חדשים, המדידה תעשה לפי נפח העץ החדש נטו",
+          "unit": "מ\"ק",
+          "quantity": 2.0,
+          "unit_price": 8155.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.20.001.0040",
+          "code": "01.20.001.0040",
+          "description": "תיקון ושיפוץ ארגז רוח קיים ע\"י החלפת והשלמת לוחות עץ פגומים או חסרים בחדשים",
+          "unit": "מ'",
+          "quantity": 27.0,
+          "unit_price": 295.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.20.002.0010",
+          "code": "01.20.002.0010",
+          "description": "פירוק זהיר, ניקוי והרכבה מחדש של רעפים קיימים, לרבות רוכבים, מרישים, חיבורים, פלשונגים, השלמת רעפים חדשים במקום חסרים או פסולים וכו' הכל כדוגמת המקור.",
+          "unit": "מ\"ר",
+          "quantity": 186.0,
+          "unit_price": 320.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.20.002.0050",
+          "code": "01.20.002.0050",
+          "description": "החלפת רוכבי שבורים או השלמת רוכבים חסרים כדוגמת הקיים.",
+          "unit": "יח'",
+          "quantity": 38.0,
+          "unit_price": 51.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.20.002.0120",
+          "code": "01.20.002.0120",
+          "description": "ניקוי רעפים ע\"ג גג קיים מלכלוך ירוקת ופטריות וכו'",
+          "unit": "מ\"ר",
+          "quantity": 129.0,
+          "unit_price": 71.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.20.002.0130",
+          "code": "01.20.002.0130",
+          "description": "ניקוי חלל הגג מלכלוך פסולת, מטלטלים, לשלשת וכו'",
+          "unit": "מ\"ר",
+          "quantity": 64.0,
+          "unit_price": 83.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.60.001.0010",
+          "code": "01.60.001.0010",
+          "description": "פועל בניין מקצועי מכל סוג שהוא",
+          "unit": "ש\"ע",
+          "quantity": 8.0,
+          "unit_price": 92.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-scaffolding_excluded",
+        "cond-schedule",
+        "cond-permits",
+        "cond-hidden_defects",
+        "cond-changes",
+        "cond-measurement",
+        "cond-warranty",
+        "cond-access",
+        "cond-samples"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 50.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 50.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-018",
+      "proposal_number": "D-2026-003",
+      "client_name": "לקוח דמו 18",
+      "org_name": "נציגות הבית המשותף",
+      "project_name": "חידוש חדר מדרגות לשימור",
+      "project_address": "רחוב הדקל 59, עיר לדוגמה",
+      "background_text": "חדר המדרגות המקורי: מדרגות טראצו שחוקות, טיח פנים מתקלף ומעקה עץ פגוע.",
+      "work_types": [
+        "stairwell",
+        "ornaments"
+      ],
+      "exterior_work": true,
+      "validity_days": 30,
+      "issue_date": "2026-02-15",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.09.001.0225",
+          "code": "01.09.001.0225",
+          "description": "עיבוד מסגרת מעוטרת סביב פתח, במשיכה, הכל לפי המקור",
+          "unit": "מ'",
+          "quantity": 29.0,
+          "unit_price": 1070.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.10.001.0110",
+          "code": "01.10.001.0110",
+          "description": "תיקון וליטוש פנלים טראצו לרבות מריחה בסילר מדוד בקו משופע לאורך המדרגות",
+          "unit": "מ'",
+          "quantity": 15.0,
+          "unit_price": 100.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.11.001.0010",
+          "code": "01.11.001.0010",
+          "description": "צביעת שטחים אופקיים ואנכיים בצבע סיד .",
+          "unit": "מ\"ר",
+          "quantity": 287.0,
+          "unit_price": 70.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.60.001.0010",
+          "code": "01.60.001.0010",
+          "description": "פועל בניין מקצועי מכל סוג שהוא",
+          "unit": "ש\"ע",
+          "quantity": 56.0,
+          "unit_price": 100.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-scaffolding_included",
+        "cond-schedule",
+        "cond-permits",
+        "cond-utilities",
+        "cond-changes",
+        "cond-measurement",
+        "cond-waste",
+        "cond-samples",
+        "cond-insurance"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 50.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 50.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-019",
+      "proposal_number": "D-2026-004",
+      "client_name": "לקוח דמו 19",
+      "org_name": null,
+      "project_name": "טיפול ברטיבות בקירות קומת הקרקע",
+      "project_address": "רחוב האורן 39, עיר לדוגמה",
+      "background_text": "בתחתית הקירות יש רטיבות עולה: הטיח מתפורר, ויש כתמי מלח עד גובה של כמטר.",
+      "work_types": [
+        "rising_damp"
+      ],
+      "exterior_work": false,
+      "validity_days": 30,
+      "issue_date": "2026-02-19",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.05.001.0010",
+          "code": "01.05.001.0010",
+          "description": "טיפול במסד למניעת עליה קפילרית בהזרקת חומר אינפרגנציה לפי הוראות היצרן",
+          "unit": "מ'",
+          "quantity": 44.0,
+          "unit_price": 715.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.05.001.0110",
+          "code": "01.05.001.0110",
+          "description": "פרופיל אלומיניוםT 2/2/2 ס\"מ להפרדה בין מסד לטיח מעל",
+          "unit": "מ'",
+          "quantity": 34.0,
+          "unit_price": 30.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0207",
+          "code": "01.09.001.0207",
+          "description": "טיח מסיר לחות על בסיס סיד ע\"ג מסד, בעובי 5-4 ס\"מ.",
+          "unit": "מ\"ר",
+          "quantity": 70.0,
+          "unit_price": 695.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.24.009.0010",
+          "code": "01.24.009.0010",
+          "description": "פירוק טיח צמנט מקירות עד לגילוי התשתית",
+          "unit": "מ\"ר",
+          "quantity": 40.0,
+          "unit_price": 48.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.24.040.0010",
+          "code": "01.24.040.0010",
+          "description": "פינוי פסולת (של אחרים) הקיימת באתר - לפני תחילת עבודות הקבלן בשטח. הפינוי למקום שפך מאושר ע\"י הרשויות לרבות תשלום אגרות",
+          "unit": "מ\"ק",
+          "quantity": 14.5,
+          "unit_price": 51.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-schedule",
+        "cond-hidden_defects",
+        "cond-changes",
+        "cond-measurement",
+        "cond-warranty",
+        "cond-insurance"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 25.0
+        },
+        {
+          "description": "לאחר חודש עבודה",
+          "percent": 25.0
+        },
+        {
+          "description": "לאחר חודשיים עבודה",
+          "percent": 25.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 25.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-020",
+      "proposal_number": "D-2026-005",
+      "client_name": "לקוח דמו 20",
+      "org_name": "ועד הבית",
+      "project_name": "שיקום עיטורים וקרניזים בחזית",
+      "project_address": "רחוב הרימון 56, עיר לדוגמה",
+      "background_text": "בחזית יש קרניזים, מסגרות מעוטרות סביב החלונות ופילסטרים. חלקם סדוקים וחלקם חסרים.",
+      "work_types": [
+        "ornaments",
+        "roof_waterproofing"
+      ],
+      "exterior_work": true,
+      "validity_days": 30,
+      "issue_date": "2026-03-04",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.02.004.0020",
+          "code": "01.02.004.0020",
+          "description": "רולקות משולשות במידות 10x10 ס\"מ מטיט צמנט 3:1 (איטום הרולקה נמדד בנפרד)",
+          "unit": "מ'",
+          "quantity": 104.0,
+          "unit_price": 47.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.05.001.0050",
+          "code": "01.05.001.0050",
+          "description": "מרזב פח אבץ מרובע כדוגמת המקורי",
+          "unit": "מ'",
+          "quantity": 33.0,
+          "unit_price": 535.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.05.001.0060",
+          "code": "01.05.001.0060",
+          "description": "קופסת קליטה למי גשם מפח אבץ כדוגמת המקורית",
+          "unit": "קומפ",
+          "quantity": 1,
+          "unit_price": 800.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.05.003.0008",
+          "code": "01.05.003.0008",
+          "description": "איטום גגות שטוחים ב-2 שכבות של יריעות ביטומניות אלסטומריות עם ציפוי אגרגט בשכבה העליונה מושבחות בפולימר SBS, מסוג פוליפז או ש\"ע בעובי 4 מ\"מ",
+          "unit": "מ\"ר",
+          "quantity": 212.0,
+          "unit_price": 135.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0260",
+          "code": "01.09.001.0260",
+          "description": "ייצוב ושיקום מסגרת מעוטרת סביב פתח, במשיכה.",
+          "unit": "מ'",
+          "quantity": 31.0,
+          "unit_price": 705.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0330",
+          "code": "01.09.001.0330",
+          "description": "ייצוב ושיקום כותרת לעמוד",
+          "unit": "יח'",
+          "quantity": 5.0,
+          "unit_price": 1850.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0340",
+          "code": "01.09.001.0340",
+          "description": "ייצוב ושיקום עיטור בשטח של עד 1 מ\"ר",
+          "unit": "יח'",
+          "quantity": 3.0,
+          "unit_price": 1820.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.24.005.0040",
+          "code": "01.24.005.0040",
+          "description": "פירוק וסילוק שכבות איטום ושיפועים",
+          "unit": "מ\"ר",
+          "quantity": 77.0,
+          "unit_price": 78.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-scaffolding_included",
+        "cond-schedule",
+        "cond-permits",
+        "cond-utilities",
+        "cond-hidden_defects",
+        "cond-changes",
+        "cond-measurement",
+        "cond-warranty",
+        "cond-access",
+        "cond-samples"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה עם החתימה על ההצעה",
+          "percent": 30.0
+        },
+        {
+          "description": "עם השלמת מחצית מהעבודה",
+          "percent": 40.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 30.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-021",
+      "proposal_number": "D-2026-006",
+      "client_name": "לקוח דמו 21",
+      "org_name": null,
+      "project_name": "חידוש טיח וצבע בחזית הרחוב",
+      "project_address": "רחוב הערבה 15, עיר לדוגמה",
+      "background_text": "המבנה מוגדר לשימור. הטיח בחזיתות מתנתק ומתפורר במקומות רבים, ויש סדקים וצמחייה.",
+      "work_types": [
+        "facade_plaster"
+      ],
+      "exterior_work": true,
+      "validity_days": 30,
+      "issue_date": "2026-03-13",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.09.001.0030",
+          "code": "01.09.001.0030",
+          "description": "תוספת לטיח כנ\"ל עבור שליכטה צבעונית חרושתית על בסיס סיד .",
+          "unit": "מ\"ר",
+          "quantity": 248.0,
+          "unit_price": 120.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0060",
+          "code": "01.09.001.0060",
+          "description": "חידוש טיח לרבות הסרת שכבת הגמר והשליכטה מכל סוג שהוא ויישור בשכבה אחת של טיח מיישר על בסיס סיד, גמר חלק סרגל שני כוונים עם מייקים לרבות שליכטה משופשפת בשפשפת עץ",
+          "unit": "מ\"ר",
+          "quantity": 595.0,
+          "unit_price": 415.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0222",
+          "code": "01.09.001.0222",
+          "description": "עיבוד אף מים שקוע או בולט במשיכה",
+          "unit": "מ'",
+          "quantity": 75.0,
+          "unit_price": 285.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.11.001.0070",
+          "code": "01.11.001.0070",
+          "description": "חידוש צבע ע\"ג שטחים אופקיים ואנכיים בצבע סיד, לרבות יסוד.",
+          "unit": "מ\"ר",
+          "quantity": 428.0,
+          "unit_price": 89.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.29.001.0900",
+          "code": "01.29.001.0900",
+          "description": "פירוק וסילוק אנטנות, דודים, חלקי מתכת, צינורות, כבלים וחוטים מיותרים מהגג וכל החזיתות",
+          "unit": "קומפ",
+          "quantity": 1,
+          "unit_price": 1070.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-scaffolding_excluded",
+        "cond-schedule",
+        "cond-permits",
+        "cond-hidden_defects",
+        "cond-changes",
+        "cond-measurement",
+        "cond-waste",
+        "cond-access",
+        "cond-samples",
+        "cond-insurance"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 25.0
+        },
+        {
+          "description": "לאחר חודש עבודה",
+          "percent": 25.0
+        },
+        {
+          "description": "לאחר חודשיים עבודה",
+          "percent": 25.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 25.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-022",
+      "proposal_number": "D-2026-007",
+      "client_name": "לקוח דמו 22",
+      "org_name": null,
+      "project_name": "שיקום קירות אבן במבנה היסטורי",
+      "project_address": "רחוב התאנה 34, עיר לדוגמה",
+      "background_text": "קירות האבן מלוכלכים, הכיחול שחוק, וחלק מהאבנים רופפות או חסרות.",
+      "work_types": [
+        "facade_stone"
+      ],
+      "exterior_work": true,
+      "validity_days": 30,
+      "issue_date": "2026-04-23",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.09.001.0040",
+          "code": "01.09.001.0040",
+          "description": "הסרת צמחיה ומיקרוביולוגיה",
+          "unit": "מ\"ר",
+          "quantity": 119.0,
+          "unit_price": 58.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.14.001.0036",
+          "code": "01.14.001.0036",
+          "description": "חיזוק תשתית ע\"י קונסולידציה ב\"מי סיד\" על בסיס סיד הידראולי",
+          "unit": "מ\"ר",
+          "quantity": 121.0,
+          "unit_price": 86.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.14.001.0060",
+          "code": "01.14.001.0060",
+          "description": "שיקום פני קיר אבן לרבות ניקוי, יצוב אבנים רופפות, כיחול חדש ותיקון אבנים פגומות.",
+          "unit": "מ\"ר",
+          "quantity": 203.0,
+          "unit_price": 560.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-scaffolding_excluded",
+        "cond-schedule",
+        "cond-permits",
+        "cond-utilities",
+        "cond-hidden_defects",
+        "cond-changes",
+        "cond-measurement",
+        "cond-access"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 50.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 50.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-023",
+      "proposal_number": "D-2026-008",
+      "client_name": "לקוח דמו 23",
+      "org_name": null,
+      "project_name": "תיקוני בטון במרפסות ובמעקות",
+      "project_address": "רחוב הרימון 47, עיר לדוגמה",
+      "background_text": "בתחתית המרפסות ובשוליהן הבטון מתקלף וברזל הזיון חשוף וחלוד.",
+      "work_types": [
+        "balconies_concrete"
+      ],
+      "exterior_work": true,
+      "validity_days": 30,
+      "issue_date": "2026-05-06",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.02.001.0180",
+          "code": "01.02.001.0180",
+          "description": "שיקום בטונים ברצועות בהם הבטון פגום והזיון חלוד ברוחב עד 25 ס\"מ בחומר תיקון צמנטי בלתי מתכווץ נושא תקן אירופאי 4-R",
+          "unit": "מ'",
+          "quantity": 75.0,
+          "unit_price": 335.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.06.002.0260",
+          "code": "01.06.002.0260",
+          "description": "שיקום מעקה פלדה בגובה עד 50 ס\"מ במרפסות, גדרות, חדרי מדרגות",
+          "unit": "מ'",
+          "quantity": 44.0,
+          "unit_price": 830.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.11.002.0034",
+          "code": "01.11.002.0034",
+          "description": "חידוש צבע למעקות ברזל.",
+          "unit": "מ'",
+          "quantity": 54.0,
+          "unit_price": 120.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-scaffolding_included",
+        "cond-schedule",
+        "cond-hidden_defects",
+        "cond-changes",
+        "cond-measurement",
+        "cond-waste",
+        "cond-warranty",
+        "cond-access",
+        "cond-insurance"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 50.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 50.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-024",
+      "proposal_number": "D-2026-009",
+      "client_name": "לקוח דמו 24",
+      "org_name": "ועד הבית",
+      "project_name": "החלפת איטום גג ומרזבים",
+      "project_address": "רחוב האלה 32, עיר לדוגמה",
+      "background_text": "יש נזילות לדירות העליונות. האיטום בגג ישן וסדוק, והמרזבים סתומים.",
+      "work_types": [
+        "roof_waterproofing"
+      ],
+      "exterior_work": false,
+      "validity_days": 30,
+      "issue_date": "2026-05-13",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.02.004.0020",
+          "code": "01.02.004.0020",
+          "description": "רולקות משולשות במידות 10x10 ס\"מ מטיט צמנט 3:1 (איטום הרולקה נמדד בנפרד)",
+          "unit": "מ'",
+          "quantity": 83.0,
+          "unit_price": 43.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.05.001.0050",
+          "code": "01.05.001.0050",
+          "description": "מרזב פח אבץ מרובע כדוגמת המקורי",
+          "unit": "מ'",
+          "quantity": 12.0,
+          "unit_price": 480.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.05.003.0008",
+          "code": "01.05.003.0008",
+          "description": "איטום גגות שטוחים ב-2 שכבות של יריעות ביטומניות אלסטומריות עם ציפוי אגרגט בשכבה העליונה מושבחות בפולימר SBS, מסוג פוליפז או ש\"ע בעובי 4 מ\"מ",
+          "unit": "מ\"ר",
+          "quantity": 385.0,
+          "unit_price": 130.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.05.003.0010",
+          "code": "01.05.003.0010",
+          "description": "איטום רולקות ב-2 שכבות של רצועות חיזוק/חיפוי מיריעות ביטומניות משוכללות מושבחות בפולימר SBS, מסוג פוליפז או ש\"ע בעובי 4 מ\"מ כל אחת, עם שריון לבד פוליאסטר, לרבות רצועת חיזוק תחתונה ברוחב 30 ס\"מ עם ציפוי חול, רצועת חיפוי עליונה ברוחב 50 ס\"מ עם ציפוי אגרגט.",
+          "unit": "מ'",
+          "quantity": 78.0,
+          "unit_price": 62.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.05.003.0030",
+          "code": "01.05.003.0030",
+          "description": "קיבוע רצועות חיפוי ביטומניות על המעקות באזור הרולקות באמצעות פרופיל אלומיניום תיקני לרבות מילוי המרווח העליון שבין הפרופיל והמעקה ע\"י חומר אטימה אלסטומרי פוליאוריתני או אלסטומרי ביטומני",
+          "unit": "מ'",
+          "quantity": 50.0,
+          "unit_price": 42.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.24.005.0040",
+          "code": "01.24.005.0040",
+          "description": "פירוק וסילוק שכבות איטום ושיפועים",
+          "unit": "מ\"ר",
+          "quantity": 90.0,
+          "unit_price": 78.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.24.005.0050",
+          "code": "01.24.005.0050",
+          "description": "בדיקת אטימות של גגות ומרפסות",
+          "unit": "מ\"ר",
+          "quantity": 176.0,
+          "unit_price": 21.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-schedule",
+        "cond-utilities",
+        "cond-hidden_defects",
+        "cond-changes",
+        "cond-measurement",
+        "cond-warranty",
+        "cond-access",
+        "cond-insurance"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 50.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 50.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-025",
+      "proposal_number": "D-2026-010",
+      "client_name": "לקוח דמו 25",
+      "org_name": "נציגות הבית המשותף",
+      "project_name": "שיקום תריסים ערביים וחלונות",
+      "project_address": "רחוב האורן 54, עיר לדוגמה",
+      "background_text": "החלונות והתריסים המקוריים מעץ. חלק מהכנפות רקובות, הרפפות שבורות והפרזול חסר.",
+      "work_types": [
+        "wood_windows"
+      ],
+      "exterior_work": false,
+      "validity_days": 30,
+      "issue_date": "2026-06-15",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.06.001.0370",
+          "code": "01.06.001.0370",
+          "description": "שיקום חלון עץ קיים בשטח של עד 1 מ\"ר",
+          "unit": "יח'",
+          "quantity": 12.0,
+          "unit_price": 2075.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.60.001.0010",
+          "code": "01.60.001.0010",
+          "description": "פועל בניין מקצועי מכל סוג שהוא",
+          "unit": "ש\"ע",
+          "quantity": 40.0,
+          "unit_price": 84.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-schedule",
+        "cond-changes",
+        "cond-measurement",
+        "cond-waste",
+        "cond-access",
+        "cond-samples",
+        "cond-insurance"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 50.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 50.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-026",
+      "proposal_number": "D-2026-011",
+      "client_name": "לקוח דמו 26",
+      "org_name": null,
+      "project_name": "שיקום מסגרות ברזל מקוריות",
+      "project_address": "רחוב הגפן 15, עיר לדוגמה",
+      "background_text": "המעקות והסורגים המקוריים חלודים, חלק מהעוגנים רופפים, ויש חלקי עיטור חסרים.",
+      "work_types": [
+        "railings_grilles",
+        "tile_roof"
+      ],
+      "exterior_work": true,
+      "validity_days": 30,
+      "issue_date": "2026-06-27",
+      "status": "sent",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.05.001.0050",
+          "code": "01.05.001.0050",
+          "description": "מרזב פח אבץ מרובע כדוגמת המקורי",
+          "unit": "מ'",
+          "quantity": 14.0,
+          "unit_price": 530.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.06.002.0290",
+          "code": "01.06.002.0290",
+          "description": "שיקום מעקה פלדה מעוטר כנ\"ל אך בגובה העולה על 50 ס\"מ ועד 1.1 מ'",
+          "unit": "מ'",
+          "quantity": 40.0,
+          "unit_price": 1535.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.06.002.0300",
+          "code": "01.06.002.0300",
+          "description": "שיקום סורג בשטח של עד 1 מ\"ר",
+          "unit": "יח'",
+          "quantity": 15.0,
+          "unit_price": 570.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.06.002.0320",
+          "code": "01.06.002.0320",
+          "description": "שיקום דלת מעוטרת חד כנפית מפלדה במידות כלשהן",
+          "unit": "יח'",
+          "quantity": 2.0,
+          "unit_price": 1405.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.20.001.0020",
+          "code": "01.20.001.0020",
+          "description": "תיקון וחיזוק קונסטרוקצית העץ של גג רעפים קיים לרבות השלמות של לוחות עץ חדשים, המדידה תעשה לפי נפח העץ החדש נטו",
+          "unit": "מ\"ק",
+          "quantity": 1.0,
+          "unit_price": 9385.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.20.002.0120",
+          "code": "01.20.002.0120",
+          "description": "ניקוי רעפים ע\"ג גג קיים מלכלוך ירוקת ופטריות וכו'",
+          "unit": "מ\"ר",
+          "quantity": 156.0,
+          "unit_price": 81.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.20.002.0170",
+          "code": "01.20.002.0170",
+          "description": "בידוד מזרוני צמר זכוכית בעובי 6-5 ס\"מ עם ציפוי רדיד אלומיניום",
+          "unit": "מ\"ר",
+          "quantity": 77.0,
+          "unit_price": 45.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.24.040.0010",
+          "code": "01.24.040.0010",
+          "description": "פינוי פסולת (של אחרים) הקיימת באתר - לפני תחילת עבודות הקבלן בשטח. הפינוי למקום שפך מאושר ע\"י הרשויות לרבות תשלום אגרות",
+          "unit": "מ\"ק",
+          "quantity": 14.5,
+          "unit_price": 59.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.60.001.0010",
+          "code": "01.60.001.0010",
+          "description": "פועל בניין מקצועי מכל סוג שהוא",
+          "unit": "ש\"ע",
+          "quantity": 48.0,
+          "unit_price": 100.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-scaffolding_excluded",
+        "cond-schedule",
+        "cond-utilities",
+        "cond-hidden_defects",
+        "cond-changes",
+        "cond-measurement",
+        "cond-waste",
+        "cond-warranty",
+        "cond-access"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה עם החתימה על ההצעה",
+          "percent": 30.0
+        },
+        {
+          "description": "עם השלמת מחצית מהעבודה",
+          "percent": 40.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 30.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-027",
+      "proposal_number": "D-2026-012",
+      "client_name": "לקוח דמו 27",
+      "org_name": "נציגות הבית המשותף",
+      "project_name": "שיקום גג רעפים",
+      "project_address": "רחוב הגפן 34, עיר לדוגמה",
+      "background_text": "גג הרעפים המקורי דולף, חלק מהרעפים שבורים וקורות העץ נפגעו מרטיבות.",
+      "work_types": [
+        "tile_roof"
+      ],
+      "exterior_work": true,
+      "validity_days": 30,
+      "issue_date": "2026-07-19",
+      "status": "issued",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.05.001.0050",
+          "code": "01.05.001.0050",
+          "description": "מרזב פח אבץ מרובע כדוגמת המקורי",
+          "unit": "מ'",
+          "quantity": 40.0,
+          "unit_price": 485.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.20.001.0020",
+          "code": "01.20.001.0020",
+          "description": "תיקון וחיזוק קונסטרוקצית העץ של גג רעפים קיים לרבות השלמות של לוחות עץ חדשים, המדידה תעשה לפי נפח העץ החדש נטו",
+          "unit": "מ\"ק",
+          "quantity": 6.0,
+          "unit_price": 8770.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.20.001.0040",
+          "code": "01.20.001.0040",
+          "description": "תיקון ושיפוץ ארגז רוח קיים ע\"י החלפת והשלמת לוחות עץ פגומים או חסרים בחדשים",
+          "unit": "מ'",
+          "quantity": 16.0,
+          "unit_price": 315.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.20.002.0010",
+          "code": "01.20.002.0010",
+          "description": "פירוק זהיר, ניקוי והרכבה מחדש של רעפים קיימים, לרבות רוכבים, מרישים, חיבורים, פלשונגים, השלמת רעפים חדשים במקום חסרים או פסולים וכו' הכל כדוגמת המקור.",
+          "unit": "מ\"ר",
+          "quantity": 47.0,
+          "unit_price": 330.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.20.002.0120",
+          "code": "01.20.002.0120",
+          "description": "ניקוי רעפים ע\"ג גג קיים מלכלוך ירוקת ופטריות וכו'",
+          "unit": "מ\"ר",
+          "quantity": 76.0,
+          "unit_price": 78.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.20.002.0130",
+          "code": "01.20.002.0130",
+          "description": "ניקוי חלל הגג מלכלוך פסולת, מטלטלים, לשלשת וכו'",
+          "unit": "מ\"ר",
+          "quantity": 143.0,
+          "unit_price": 82.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.60.001.0010",
+          "code": "01.60.001.0010",
+          "description": "פועל בניין מקצועי מכל סוג שהוא",
+          "unit": "ש\"ע",
+          "quantity": 24.0,
+          "unit_price": 95.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-scaffolding_excluded",
+        "cond-schedule",
+        "cond-utilities",
+        "cond-hidden_defects",
+        "cond-changes",
+        "cond-measurement",
+        "cond-warranty",
+        "cond-access",
+        "cond-insurance"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 20.0
+        },
+        {
+          "description": "לאחר השלמת עבודות ההכנה והתיקונים",
+          "percent": 50.0
+        },
+        {
+          "description": "בגמר העבודה ופירוק הפיגום",
+          "percent": 30.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-028",
+      "proposal_number": "D-2026-013",
+      "client_name": "לקוח דמו 28",
+      "org_name": null,
+      "project_name": "חידוש חדר מדרגות לשימור",
+      "project_address": "רחוב הזית 27, עיר לדוגמה",
+      "background_text": "חדר המדרגות המקורי: מדרגות טראצו שחוקות, טיח פנים מתקלף ומעקה עץ פגוע.",
+      "work_types": [
+        "stairwell",
+        "facade_plaster"
+      ],
+      "exterior_work": true,
+      "validity_days": 30,
+      "issue_date": "2026-08-23",
+      "status": "issued",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.06.001.0520",
+          "code": "01.06.001.0520",
+          "description": "שיקום מכלול תיבות דואר מעץ (עד 4 תיבות)",
+          "unit": "יח'",
+          "quantity": 1.0,
+          "unit_price": 2930.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.06.002.0280",
+          "code": "01.06.002.0280",
+          "description": "שיקום מעקה פלדה מעוטר בגובה עד 50 ס\"מ במרפסות, גדרות וחדרי מדרגות",
+          "unit": "מ'",
+          "quantity": 18.0,
+          "unit_price": 1220.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0100",
+          "code": "01.09.001.0100",
+          "description": "חידוש טיח לרבות הסרת שכבת צבע סיד במברשות פלדה עד לחשיפת הגרגרים של הטיח וביצוע בשכבה אחת של שליכטה משופשפת בשפשפת עץ",
+          "unit": "מ\"ר",
+          "quantity": 295.0,
+          "unit_price": 230.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0230",
+          "code": "01.09.001.0230",
+          "description": "ייצוב ושיקום קרניז במשיכה )3-2 מדרגות)",
+          "unit": "מ'",
+          "quantity": 58.0,
+          "unit_price": 445.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0250",
+          "code": "01.09.001.0250",
+          "description": "ייצוב ושיקום אף מים שקוע או בולט במשיכה",
+          "unit": "מ'",
+          "quantity": 55.0,
+          "unit_price": 190.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0270",
+          "code": "01.09.001.0270",
+          "description": "ייצוב ושיקום טיח על בסיס סיד",
+          "unit": "מ\"ר",
+          "quantity": 56.0,
+          "unit_price": 405.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.10.001.0090",
+          "code": "01.10.001.0090",
+          "description": "תיקון וליטוש מדרגות טראצו (רום ושלח) לרבות מריחה בסילר",
+          "unit": "מ'",
+          "quantity": 57.0,
+          "unit_price": 415.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.11.001.0010",
+          "code": "01.11.001.0010",
+          "description": "צביעת שטחים אופקיים ואנכיים בצבע סיד .",
+          "unit": "מ\"ר",
+          "quantity": 179.0,
+          "unit_price": 69.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.11.002.0034",
+          "code": "01.11.002.0034",
+          "description": "חידוש צבע למעקות ברזל.",
+          "unit": "מ'",
+          "quantity": 23.0,
+          "unit_price": 110.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.24.040.0010",
+          "code": "01.24.040.0010",
+          "description": "פינוי פסולת (של אחרים) הקיימת באתר - לפני תחילת עבודות הקבלן בשטח. הפינוי למקום שפך מאושר ע\"י הרשויות לרבות תשלום אגרות",
+          "unit": "מ\"ק",
+          "quantity": 12.0,
+          "unit_price": 57.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.29.001.0100",
+          "code": "01.29.001.0100",
+          "description": "העתקת מנוע מזגן קיים, כולל הכנסת צמת מזגן מתחת לטיח, הכל מבוצע מושלם ע\"י איש מיזוג כולל בדיקה ראשונית של המזגן טרם הביצוע",
+          "unit": "יח'",
+          "quantity": 2.0,
+          "unit_price": 3290.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.29.001.0200",
+          "code": "01.29.001.0200",
+          "description": "העתקה והחזרה של כלל בלוני גז לצורך שיפוץ הקירות ע\"י טכנאי גז חיצוני מוסמך מטעם הקבלן.",
+          "unit": "קומפ",
+          "quantity": 1,
+          "unit_price": 2065.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.29.001.0900",
+          "code": "01.29.001.0900",
+          "description": "פירוק וסילוק אנטנות, דודים, חלקי מתכת, צינורות, כבלים וחוטים מיותרים מהגג וכל החזיתות",
+          "unit": "קומפ",
+          "quantity": 1,
+          "unit_price": 1095.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.60.001.0010",
+          "code": "01.60.001.0010",
+          "description": "פועל בניין מקצועי מכל סוג שהוא",
+          "unit": "ש\"ע",
+          "quantity": 64.0,
+          "unit_price": 97.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-scaffolding_included",
+        "cond-schedule",
+        "cond-permits",
+        "cond-utilities",
+        "cond-hidden_defects",
+        "cond-changes",
+        "cond-measurement",
+        "cond-access",
+        "cond-samples",
+        "cond-insurance"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 50.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 50.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-029",
+      "proposal_number": "D-2026-014",
+      "client_name": "לקוח דמו 29",
+      "org_name": "ועד הבית",
+      "project_name": "טיפול ברטיבות בקירות קומת הקרקע",
+      "project_address": "רחוב השקד 44, עיר לדוגמה",
+      "background_text": "בתחתית הקירות יש רטיבות עולה: הטיח מתפורר, ויש כתמי מלח עד גובה של כמטר.",
+      "work_types": [
+        "rising_damp"
+      ],
+      "exterior_work": false,
+      "validity_days": 30,
+      "issue_date": "2026-09-16",
+      "status": "issued",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.05.001.0030",
+          "code": "01.05.001.0030",
+          "description": "איטום מסד בטון בשתי שכבות של טיח אוטם מסוג טרוסיל 112-FX או סיקה טופ 107 אלסטוק בשעור 4 ק\"ג למ\"ר (2 מ\"מ) בגובה 50 מ'",
+          "unit": "מ'",
+          "quantity": 68.0,
+          "unit_price": 210.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.05.001.0140",
+          "code": "01.05.001.0140",
+          "description": "פרט הרחקת מים מסביב לקירות המבנה, לרבות חפירה לעומק 60 ס\"מ, איטום, בד גיאוטכני ועיגונו לקיר בסרגל אלומיניום, צינור שרשורי, מילוי חצץ, כיסוי בד גאוטכני ומילוי עפר",
+          "unit": "מ'",
+          "quantity": 52.0,
+          "unit_price": 315.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0207",
+          "code": "01.09.001.0207",
+          "description": "טיח מסיר לחות על בסיס סיד ע\"ג מסד, בעובי 5-4 ס\"מ.",
+          "unit": "מ\"ר",
+          "quantity": 29.0,
+          "unit_price": 695.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.14.001.0210",
+          "code": "01.14.001.0210",
+          "description": "טיפול במניעת עליה קפילרית בהספגת חומר סיליקוני",
+          "unit": "מ'",
+          "quantity": 10.0,
+          "unit_price": 340.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.24.009.0010",
+          "code": "01.24.009.0010",
+          "description": "פירוק טיח צמנט מקירות עד לגילוי התשתית",
+          "unit": "מ\"ר",
+          "quantity": 69.0,
+          "unit_price": 47.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-schedule",
+        "cond-hidden_defects",
+        "cond-changes",
+        "cond-measurement",
+        "cond-waste",
+        "cond-warranty",
+        "cond-insurance"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה עם החתימה על ההצעה",
+          "percent": 30.0
+        },
+        {
+          "description": "עם השלמת מחצית מהעבודה",
+          "percent": 40.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 30.0
+        }
+      ]
+    },
+    {
+      "id": "demo-prop-030",
+      "proposal_number": "D-2026-015",
+      "client_name": "לקוח דמו 30",
+      "org_name": "ועד הבית",
+      "project_name": "שיקום עיטורים וקרניזים בחזית",
+      "project_address": "רחוב התאנה 45, עיר לדוגמה",
+      "background_text": "בחזית יש קרניזים, מסגרות מעוטרות סביב החלונות ופילסטרים. חלקם סדוקים וחלקם חסרים.",
+      "work_types": [
+        "ornaments"
+      ],
+      "exterior_work": true,
+      "validity_days": 30,
+      "issue_date": "2026-09-17",
+      "status": "issued",
+      "vat_rate_applied": 18.0,
+      "line_items": [
+        {
+          "catalog_item_id": "cat-01.09.001.0225",
+          "code": "01.09.001.0225",
+          "description": "עיבוד מסגרת מעוטרת סביב פתח, במשיכה, הכל לפי המקור",
+          "unit": "מ'",
+          "quantity": 27.0,
+          "unit_price": 925.0,
+          "discount_percent": 0.0
+        },
+        {
+          "catalog_item_id": "cat-01.09.001.0330",
+          "code": "01.09.001.0330",
+          "description": "ייצוב ושיקום כותרת לעמוד",
+          "unit": "יח'",
+          "quantity": 6.0,
+          "unit_price": 1565.0,
+          "discount_percent": 0.0
+        }
+      ],
+      "condition_ids": [
+        "cond-payment",
+        "cond-scaffolding_included",
+        "cond-schedule",
+        "cond-permits",
+        "cond-utilities",
+        "cond-changes",
+        "cond-measurement",
+        "cond-waste",
+        "cond-samples"
+      ],
+      "payment_milestones": [
+        {
+          "description": "מקדמה",
+          "percent": 50.0
+        },
+        {
+          "description": "עם מסירת העבודה",
+          "percent": 50.0
+        }
+      ]
+    }
+  ]
+}

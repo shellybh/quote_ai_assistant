@@ -1,0 +1,62 @@
+# Rules for the capability-B code checks (SPEC 5.3).
+# Condition keys are the stable `key` values in data/demo/conditions.json.
+# Code prefixes are catalog chapters, e.g. "01.14" = stone work.
+# Approved by the business owner, 30.10.2026 (through the user):
+#  - scaffolding and samples are added on request only, so no rule demands them;
+#  - no alert on a price far from the catalog price (catalog_check_enabled: false).
+# 31.10.2026: both conflicts (scaffolding, waste) are confirmed by the owner
+# (through the user), and so is leaving validity and VAT out of the check.
+
+price:
+  # PriceStats: unit price (after discount) vs. the median of the same code.
+  history_min_samples: 3      # fewer previous prices -> no history check
+  history_max_ratio: 1.5      # flag above x1.5 or below 1/1.5 of the median
+  # CatalogPriceCheck: only extreme deviations (likely typos). Off: the
+  # owner does not want this alert (30.10.2026). The code stays, to turn on.
+  catalog_check_enabled: false
+  catalog_min_ratio: 0.5
+  catalog_max_ratio: 2.0
+
+conditions:
+  # Every proposal must include these. Validity and VAT are not conditions:
+  # the app's PDF always shows "valid until" and the VAT lines (31.10.2026).
+  always:
+    - key: payment
+      label: "תנאי תשלום"
+
+  # If the proposal has a line whose code starts with one of `code_prefixes`
+  # (and is not in `except_codes`), at least one of `require_any` must be selected.
+  rules:
+    - id: hidden_defects
+      work: "תיקוני בטון, שיקום אבן או טיפול ברטיבות"
+      code_prefixes: ["01.02", "01.14", "01.05.001.0010", "01.05.001.0030"]
+      require_any: [hidden_defects]
+      label: "ליקויים נסתרים"
+    - id: warranty
+      work: "איטום גגות או רצפות"
+      code_prefixes: ["01.05.002", "01.05.003"]
+      require_any: [warranty]
+      label: "אחריות"
+
+  # Conditions that contradict each other: at most one of `keys` may be
+  # selected. Reported as a wording finding (SPEC 12.3: a contradiction).
+  conflicts:
+    - keys: [scaffolding_included, scaffolding_excluded]
+      label: "\"פיגום כלול במחיר\" וגם \"פיגום אינו כלול במחיר\""
+    # Added 31.10.2026 with the waste_excluded demo condition; the owner
+    # named the same pair in his round-3 answers.
+    - keys: [waste, waste_excluded]
+      label: "\"פינוי פסולת כלול במחיר\" וגם \"פינוי פסולת אינו כלול במחיר\""
+
+# Capability A (not a B check): a catalog item that names a special case
+# fits only a message that says the same case. The Matcher prompt says so
+# (v4.2), but on the tuning set the bare "פינוי פסולת" still got the
+# others'-debris item in 3 of 4 runs (3.11.2026); the owner charges our own
+# waste per container, with no catalog item (round 3). So code checks it,
+# like `keep_stated_quantity` (user, 3.11.2026). `any_of` are single words
+# from the item's own wording and plain words for old debris left by others,
+# matched with Hebrew prefixes; none was taken from the test sets.
+special_items:
+  - code: "01.24.040.0010"
+    case: "פסולת קיימת של אחרים"
+    any_of: [אחרים, קיימת, קיים, ישנה, ישן, קודמים, קודמת, דיירים, נשארה, נשאר]

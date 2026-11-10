@@ -1,0 +1,396 @@
+{
+  "capability": "A+",
+  "kind": "agent",
+  "dataset": "aplus_tune.jsonl",
+  "dataset_hash": "1e852c8689a9",
+  "model": "gemini-3.5-flash-lite",
+  "prompt_hash": {
+    "intake": "17940cd4b445",
+    "matcher": "f139f334ec99"
+  },
+  "confidence": {
+    "condition_score": {
+      "high": 0.9,
+      "medium": 0.6,
+      "low": 0.3
+    },
+    "review_below": 0.75
+  },
+  "conditions": {
+    "recall": 100.0,
+    "precision": 90.9,
+    "exact_cases": 80.0,
+    "false_positives": 2,
+    "missed": 0,
+    "ticked_precision": 100.0,
+    "unmatched_found": 0.0,
+    "unmatched_extra": 0
+  },
+  "rows": [
+    {
+      "id": "ap01",
+      "seconds": 5.83,
+      "expected": [
+        "scaffolding_excluded",
+        "payment"
+      ],
+      "found": [
+        "scaffolding_excluded",
+        "payment"
+      ],
+      "ticked": [
+        "scaffolding_excluded"
+      ],
+      "suggested": [
+        {
+          "key": "scaffolding_excluded",
+          "source_text": "המחיר לא כולל פיגום",
+          "confidence": 0.9
+        },
+        {
+          "key": "payment",
+          "source_text": "מקדמה [סכום1], יתרה בסיום",
+          "confidence": 0.6
+        }
+      ],
+      "unmatched_expected": 0,
+      "unmatched_found": 0,
+      "unmatched": [],
+      "lines": [
+        "01.09.001.0270"
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap02",
+      "seconds": 3.09,
+      "expected": [
+        "scaffolding_included",
+        "utilities",
+        "payment"
+      ],
+      "found": [
+        "scaffolding_included",
+        "utilities",
+        "payment"
+      ],
+      "ticked": [
+        "scaffolding_included",
+        "utilities"
+      ],
+      "suggested": [
+        {
+          "key": "scaffolding_included",
+          "source_text": "הפיגום כלול במחיר",
+          "confidence": 0.9
+        },
+        {
+          "key": "utilities",
+          "source_text": "החשמל והמים על המזמין",
+          "confidence": 0.9
+        },
+        {
+          "key": "payment",
+          "source_text": "תשלום: 30% בתחילת העבודה, 40% באמצע ו-30% בסיום",
+          "confidence": 0.6
+        }
+      ],
+      "unmatched_expected": 0,
+      "unmatched_found": 0,
+      "unmatched": [],
+      "lines": [
+        "01.14.001.0060"
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap03",
+      "seconds": 3.05,
+      "expected": [
+        "warranty",
+        "measurement"
+      ],
+      "found": [
+        "warranty",
+        "measurement"
+      ],
+      "ticked": [
+        "warranty",
+        "measurement"
+      ],
+      "suggested": [
+        {
+          "key": "warranty",
+          "source_text": "אחריות לשנתיים.",
+          "confidence": 0.9
+        },
+        {
+          "key": "measurement",
+          "source_text": "הכמויות לפי מדידה בסוף העבודה.",
+          "confidence": 0.9
+        }
+      ],
+      "unmatched_expected": 0,
+      "unmatched_found": 0,
+      "unmatched": [],
+      "lines": [
+        "01.20.002.0160"
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap04",
+      "seconds": 3.34,
+      "expected": [
+        "permits",
+        "hidden_defects",
+        "payment"
+      ],
+      "found": [
+        "permits",
+        "hidden_defects",
+        "payment"
+      ],
+      "ticked": [
+        "permits",
+        "hidden_defects"
+      ],
+      "suggested": [
+        {
+          "key": "permits",
+          "source_text": "ההיתרים מול מחלקת השימור עליכם",
+          "confidence": 0.9
+        },
+        {
+          "key": "hidden_defects",
+          "source_text": "אם נמצא ברזל חלוד מאחורי הטיח זה בתוספת",
+          "confidence": 0.9
+        },
+        {
+          "key": "payment",
+          "source_text": "50% מקדמה והשאר בגמר",
+          "confidence": 0.6
+        }
+      ],
+      "unmatched_expected": 0,
+      "unmatched_found": 0,
+      "unmatched": [],
+      "lines": [
+        "01.06.002.0250"
+      ],
+      "warnings": [
+        "לא צוינה כמות עבור 'שיקום מעקה ברזל'.",
+        "עבור 'שיקום מעקה ברזל' נאמרה יחידה יח', אבל הסעיף נמדד ב-מ'."
+      ]
+    },
+    {
+      "id": "ap05",
+      "seconds": 3.3,
+      "expected": [],
+      "found": [],
+      "ticked": [],
+      "suggested": [],
+      "unmatched_expected": 0,
+      "unmatched_found": 0,
+      "unmatched": [],
+      "lines": [
+        "01.11.002.0011",
+        "01.03.001.0060"
+      ],
+      "warnings": [
+        "עבור 'צביעת חלונות עץ' נאמרה יחידה יח', אבל הסעיף נמדד ב-מ\"ר.",
+        "לא צוינה כמות עבור 'החלפת אדן חלון אבן'.",
+        "עבור 'החלפת אדן חלון אבן' נאמרה יחידה יח', אבל הסעיף נמדד ב-מ'."
+      ]
+    },
+    {
+      "id": "ap06",
+      "seconds": 3.13,
+      "expected": [],
+      "found": [
+        "access"
+      ],
+      "ticked": [],
+      "suggested": [
+        {
+          "key": "access",
+          "source_text": "המזמין יפנה את הרהיטים מהחדרים לפני תחילת העבודה",
+          "confidence": 0.6
+        }
+      ],
+      "unmatched_expected": 1,
+      "unmatched_found": 0,
+      "unmatched": [],
+      "lines": [
+        "01.09.001.0100"
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap07",
+      "seconds": 3.37,
+      "expected": [
+        "changes",
+        "insurance",
+        "waste",
+        "payment"
+      ],
+      "found": [
+        "changes",
+        "insurance",
+        "waste",
+        "payment"
+      ],
+      "ticked": [
+        "changes",
+        "insurance",
+        "waste"
+      ],
+      "suggested": [
+        {
+          "key": "changes",
+          "source_text": "שינויים רק באישור בכתב",
+          "confidence": 0.9
+        },
+        {
+          "key": "insurance",
+          "source_text": "יש לנו ביטוח צד ג'",
+          "confidence": 0.9
+        },
+        {
+          "key": "waste",
+          "source_text": "פינוי הפסולת כלול",
+          "confidence": 0.9
+        },
+        {
+          "key": "payment",
+          "source_text": "100% בגמר העבודה",
+          "confidence": 0.6
+        }
+      ],
+      "unmatched_expected": 0,
+      "unmatched_found": 0,
+      "unmatched": [],
+      "lines": [
+        "01.14.001.0083"
+      ],
+      "warnings": [
+        "עבור 'שיקום מדרגות אבן' נאמרה יחידה יח', אבל הסעיף נמדד ב-מ'."
+      ]
+    },
+    {
+      "id": "ap08",
+      "seconds": 3.11,
+      "expected": [
+        "samples",
+        "payment"
+      ],
+      "found": [
+        "samples",
+        "payment"
+      ],
+      "ticked": [
+        "samples"
+      ],
+      "suggested": [
+        {
+          "key": "samples",
+          "source_text": "לפני הביצוע נכין דוגמת גוון לאישור.",
+          "confidence": 0.9
+        },
+        {
+          "key": "payment",
+          "source_text": "מקדמה [סכום1] בחתימה, [סכום2] אחרי הטיח, ויתרה במסירה.",
+          "confidence": 0.6
+        }
+      ],
+      "unmatched_expected": 0,
+      "unmatched_found": 0,
+      "unmatched": [],
+      "lines": [
+        "01.11.001.0070"
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap09",
+      "seconds": 3.26,
+      "expected": [
+        "scaffolding_excluded"
+      ],
+      "found": [
+        "scaffolding_excluded",
+        "waste"
+      ],
+      "ticked": [
+        "scaffolding_excluded"
+      ],
+      "suggested": [
+        {
+          "key": "scaffolding_excluded",
+          "source_text": "פיגום לא כלול.",
+          "confidence": 0.9
+        },
+        {
+          "key": "waste",
+          "source_text": "פינוי הפסולת על חשבון המזמין.",
+          "confidence": 0.3
+        }
+      ],
+      "unmatched_expected": 1,
+      "unmatched_found": 0,
+      "unmatched": [],
+      "lines": [
+        "01.10.001.0037"
+      ],
+      "warnings": [
+        "לא צוינה כמות עבור 'ניקוי חזית אבן'.",
+        "עבור 'ניקוי חזית אבן' נאמרה יחידה יח', אבל הסעיף נמדד ב-מ\"ר."
+      ]
+    },
+    {
+      "id": "ap10",
+      "seconds": 3.19,
+      "expected": [
+        "access",
+        "schedule",
+        "payment"
+      ],
+      "found": [
+        "access",
+        "schedule",
+        "payment"
+      ],
+      "ticked": [
+        "access",
+        "schedule"
+      ],
+      "suggested": [
+        {
+          "key": "access",
+          "source_text": "צריך גישה חופשית לחזית כל זמן העבודה",
+          "confidence": 0.9
+        },
+        {
+          "key": "schedule",
+          "source_text": "משך העבודה תלוי במזג האוויר",
+          "confidence": 0.9
+        },
+        {
+          "key": "payment",
+          "source_text": "20% מקדמה, 80% בסיום",
+          "confidence": 0.6
+        }
+      ],
+      "unmatched_expected": 0,
+      "unmatched_found": 0,
+      "unmatched": [],
+      "lines": [
+        "01.06.001.0370"
+      ],
+      "warnings": [
+        "עבור 'שיקום חלונות עץ' נאמרה יחידה 20%, אבל הסעיף נמדד ב-יח'."
+      ]
+    }
+  ]
+}

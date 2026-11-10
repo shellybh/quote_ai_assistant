@@ -1,0 +1,253 @@
+{
+  "capability": "A+",
+  "kind": "baseline_keywords_regex",
+  "dataset": "aplus_natural.jsonl",
+  "dataset_hash": "568647ca659e",
+  "conditions": {
+    "recall": null,
+    "precision": 0.0,
+    "exact_cases": 40.0,
+    "false_positives": 8,
+    "missed": 0
+  },
+  "payment": {
+    "exact_all_cases": 0.0,
+    "exact_with_payment": 0.0,
+    "invented_plan": 1
+  },
+  "rows": [
+    {
+      "id": "pn01",
+      "expected": [],
+      "found": [],
+      "payment_expected": [
+        [
+          30.0,
+          null,
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_found": [
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_exact": false
+    },
+    {
+      "id": "pn02",
+      "expected": [],
+      "found": [],
+      "payment_expected": [
+        [
+          50.0,
+          null,
+          false
+        ],
+        [
+          50.0,
+          null,
+          false
+        ]
+      ],
+      "payment_found": [],
+      "payment_exact": false
+    },
+    {
+      "id": "pn03",
+      "expected": [],
+      "found": [],
+      "payment_expected": [
+        [
+          33.3,
+          null,
+          false
+        ],
+        [
+          33.3,
+          null,
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_found": [],
+      "payment_exact": false
+    },
+    {
+      "id": "pn04",
+      "expected": [],
+      "found": [
+        "payment"
+      ],
+      "payment_expected": [
+        [
+          100.0,
+          null,
+          false
+        ]
+      ],
+      "payment_found": [],
+      "payment_exact": false
+    },
+    {
+      "id": "pn05",
+      "expected": [],
+      "found": [
+        "permits",
+        "scaffolding_included",
+        "utilities"
+      ],
+      "payment_expected": [
+        [
+          25.0,
+          null,
+          false
+        ],
+        [
+          25.0,
+          null,
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_found": [
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_exact": false
+    },
+    {
+      "id": "pn06",
+      "expected": [],
+      "found": [
+        "utilities"
+      ],
+      "payment_expected": [
+        [
+          25.0,
+          null,
+          false
+        ],
+        [
+          null,
+          "[סכום1]",
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_found": [
+        [
+          null,
+          "[סכום1]",
+          false
+        ]
+      ],
+      "payment_exact": false
+    },
+    {
+      "id": "pn07",
+      "expected": [],
+      "found": [
+        "payment"
+      ],
+      "payment_expected": [
+        [
+          40.0,
+          null,
+          false
+        ],
+        [
+          60.0,
+          null,
+          false
+        ]
+      ],
+      "payment_found": [],
+      "payment_exact": false
+    },
+    {
+      "id": "pn08",
+      "expected": [],
+      "found": [
+        "utilities"
+      ],
+      "payment_expected": [],
+      "payment_found": [
+        [
+          null,
+          "[סכום1]",
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_exact": false
+    },
+    {
+      "id": "pn09",
+      "expected": [],
+      "found": [
+        "utilities"
+      ],
+      "payment_expected": [
+        [
+          100.0,
+          null,
+          false
+        ]
+      ],
+      "payment_found": [],
+      "payment_exact": false
+    },
+    {
+      "id": "pn10",
+      "expected": [],
+      "found": [],
+      "payment_expected": [
+        [
+          10.0,
+          null,
+          false
+        ],
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_found": [
+        [
+          null,
+          null,
+          true
+        ]
+      ],
+      "payment_exact": false
+    }
+  ]
+}

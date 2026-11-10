@@ -1,0 +1,200 @@
+{
+  "capability": "B",
+  "kind": "baseline_code_checks",
+  "dataset": "review_tune.jsonl",
+  "dataset_hash": "78799b1d2faa",
+  "rules_hash": "39d11f0b6a6b",
+  "model": null,
+  "prompt_hash": null,
+  "by_kind": {
+    "missing_condition": {
+      "tp": 3,
+      "recall": 100.0,
+      "precision": 100.0
+    },
+    "price_vs_history": {
+      "tp": 3,
+      "recall": 100.0,
+      "precision": 100.0
+    },
+    "unit_mismatch": {
+      "tp": 2,
+      "recall": 100.0,
+      "precision": 100.0
+    },
+    "wording": {
+      "fn": 3,
+      "tp": 1,
+      "recall": 25.0,
+      "precision": 100.0
+    }
+  },
+  "total": {
+    "tp": 9,
+    "fn": 3,
+    "recall": 75.0,
+    "precision": 100.0
+  },
+  "rows": [
+    {
+      "id": "rt01",
+      "expected": [
+        [
+          null,
+          "missing_condition"
+        ]
+      ],
+      "found": [
+        [
+          null,
+          "missing_condition"
+        ]
+      ],
+      "seconds": 0.01
+    },
+    {
+      "id": "rt02",
+      "expected": [
+        [
+          "01.09.001.0040",
+          "price_vs_history"
+        ]
+      ],
+      "found": [
+        [
+          "01.09.001.0040",
+          "price_vs_history"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rt03",
+      "expected": [
+        [
+          "01.11.002.0034",
+          "wording"
+        ]
+      ],
+      "found": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "rt04",
+      "expected": [
+        [
+          "01.24.005.0050",
+          "unit_mismatch"
+        ]
+      ],
+      "found": [
+        [
+          "01.24.005.0050",
+          "unit_mismatch"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rt05",
+      "expected": [
+        [
+          "01.06.001.0370",
+          "wording"
+        ]
+      ],
+      "found": [],
+      "seconds": 0.0
+    },
+    {
+      "id": "rt06",
+      "expected": [
+        [
+          null,
+          "wording"
+        ]
+      ],
+      "found": [
+        [
+          null,
+          "wording"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rt07",
+      "expected": [
+        [
+          "01.05.001.0050",
+          "price_vs_history"
+        ],
+        [
+          null,
+          "missing_condition"
+        ]
+      ],
+      "found": [
+        [
+          "01.05.001.0050",
+          "price_vs_history"
+        ],
+        [
+          null,
+          "missing_condition"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rt08",
+      "expected": [
+        [
+          "01.09.001.0100",
+          "unit_mismatch"
+        ],
+        [
+          "01.09.001.0250",
+          "wording"
+        ]
+      ],
+      "found": [
+        [
+          "01.09.001.0100",
+          "unit_mismatch"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rt09",
+      "expected": [
+        [
+          "01.29.001.0900",
+          "price_vs_history"
+        ],
+        [
+          null,
+          "missing_condition"
+        ]
+      ],
+      "found": [
+        [
+          "01.29.001.0900",
+          "price_vs_history"
+        ],
+        [
+          null,
+          "missing_condition"
+        ]
+      ],
+      "seconds": 0.0
+    },
+    {
+      "id": "rt10",
+      "expected": [],
+      "found": [],
+      "seconds": 0.0
+    }
+  ]
+}

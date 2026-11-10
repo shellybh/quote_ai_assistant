@@ -1,0 +1,125 @@
+{
+  "note": "בדיוני, נכתב לפרויקט הקורס. אינו מבוסס על הצעות או תנאים אמיתיים.",
+  "count": 17,
+  "items": [
+    {
+      "id": "cond-payment",
+      "key": "payment",
+      "text": "התשלום לפי אבני הדרך המפורטות בהצעה, תוך 30 יום מהגשת חשבון.",
+      "sort_order": 2,
+      "is_active": true
+    },
+    {
+      "id": "cond-scaffolding_included",
+      "key": "scaffolding_included",
+      "text": "פיגום והקמתו כלולים במחיר ההצעה.",
+      "sort_order": 3,
+      "is_active": true
+    },
+    {
+      "id": "cond-scaffolding_excluded",
+      "key": "scaffolding_excluded",
+      "text": "פיגום אינו כלול במחיר ההצעה, ויתומחר בנפרד לפי הצורך.",
+      "sort_order": 4,
+      "is_active": true
+    },
+    {
+      "id": "cond-schedule",
+      "key": "schedule",
+      "text": "משך העבודה תלוי בחגים, במזג האוויר ובזמני הייבוש של חומרי הסיד.",
+      "sort_order": 5,
+      "is_active": true
+    },
+    {
+      "id": "cond-permits",
+      "key": "permits",
+      "text": "קבלת היתרים ואישור מחלקת השימור באחריות המזמין, אלא אם נכתב אחרת.",
+      "sort_order": 6,
+      "is_active": true
+    },
+    {
+      "id": "cond-utilities",
+      "key": "utilities",
+      "text": "המזמין יספק נקודת חשמל ומים בקרבת האתר ללא תשלום.",
+      "sort_order": 7,
+      "is_active": true
+    },
+    {
+      "id": "cond-hidden_defects",
+      "key": "hidden_defects",
+      "text": "ליקויים נסתרים שיתגלו במהלך העבודה (למשל ברזל חלוד או אבן סדוקה מאחורי הטיח) יתומחרו בנפרד ויבוצעו רק באישור המזמין.",
+      "sort_order": 8,
+      "is_active": true
+    },
+    {
+      "id": "cond-changes",
+      "key": "changes",
+      "text": "שינויים ותוספות יבוצעו רק לאחר אישור בכתב, לפי מחירי ההצעה או לפי מחיר שיוסכם.",
+      "sort_order": 9,
+      "is_active": true
+    },
+    {
+      "id": "cond-measurement",
+      "key": "measurement",
+      "text": "הכמויות בהצעה משוערות. החיוב לפי מדידה בפועל בגמר העבודה.",
+      "sort_order": 10,
+      "is_active": true
+    },
+    {
+      "id": "cond-waste",
+      "key": "waste",
+      "text": "פינוי הפסולת מהעבודה לאתר מורשה כלול במחיר.",
+      "sort_order": 11,
+      "is_active": true
+    },
+    {
+      "id": "cond-warranty",
+      "key": "warranty",
+      "text": "אחריות לעבודה לשנתיים מיום המסירה, למעט נזק משימוש לא סביר או מגורם חיצוני.",
+      "sort_order": 12,
+      "is_active": true
+    },
+    {
+      "id": "cond-access",
+      "key": "access",
+      "text": "המזמין יאפשר גישה רציפה לאתר ולחזיתות במשך כל תקופת העבודה.",
+      "sort_order": 13,
+      "is_active": true
+    },
+    {
+      "id": "cond-samples",
+      "key": "samples",
+      "text": "לפני הביצוע תוכן דוגמת טיח וגוון לאישור המזמין ומחלקת השימור.",
+      "sort_order": 14,
+      "is_active": true
+    },
+    {
+      "id": "cond-insurance",
+      "key": "insurance",
+      "text": "לקבלן ביטוח צד ג' וביטוח חבות מעבידים בתוקף לכל תקופת העבודה.",
+      "sort_order": 15,
+      "is_active": true
+    },
+    {
+      "id": "cond-site_ready",
+      "key": "site_ready",
+      "text": "מועד תחילת העבודה ייקבע רק אחרי שהאתר יהיה פנוי ומוכן לביצוע.",
+      "sort_order": 16,
+      "is_active": true
+    },
+    {
+      "id": "cond-waste_excluded",
+      "key": "waste_excluded",
+      "text": "פינוי הפסולת מהעבודה אינו כלול במחיר ויתומחר בנפרד, אלא אם צוין אחרת.",
+      "sort_order": 17,
+      "is_active": true
+    },
+    {
+      "id": "cond-existing_waste",
+      "key": "existing_waste",
+      "text": "פינוי פסולת קיימת באתר, שאינה מעבודות הקבלן, אינו כלול במחיר ויתומחר בנפרד.",
+      "sort_order": 18,
+      "is_active": true
+    }
+  ]
+}
