@@ -20,7 +20,11 @@ Final project, AI Developers course, The Hebrew University (2026). Reviewed and 
 | Search: the right item among 15 candidates | 87.5% (BM25) | 100% (hybrid) |
 | Picking the right catalog item | — | 71% (tuning set: 100%) |
 
-Demo video: [link to be added]
+Demo video: 
+
+https://github.com/user-attachments/assets/47a89b17-6bba-43f7-b704-9b21dc70029b
+
+
 
 Full development history is kept in a private repository, available on request.
 `SPEC x.y` in code comments refers to the design document of the app project, which is private.
