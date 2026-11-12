@@ -10,8 +10,56 @@ Final project, AI Developers course, The Hebrew University (2026). Reviewed and 
 
 **The principle: AI suggests, a person approves, code computes.** The AI never sets or sees a price, every catalog code it returns is validated in code, and totals and VAT are computed only in the app.
 
+## Demo
+
 ![The demo app on a phone: suggested catalog lines from a free-text message, and a review finding before sending](docs/images/demo.png)
 *Left: lines suggested from a free-text message (green = matched, yellow = needs a check). Right: review before sending: code finds the problem, the Reviewer agent explains it. Demo app, fictional data.*
+
+Demo video (the server running on Railway during the course):
+
+https://github.com/user-attachments/assets/47a89b17-6bba-43f7-b704-9b21dc70029b
+
+## How it works
+
+### What the server does
+
+| Ability | Endpoint | What comes back |
+|---|---|---|
+| **A + A+: a proposal from a free-text message** | `POST /v1/match-items` | Catalog lines with quantities, conditions from the business's library and payment stages. The business owner approves each one in the app |
+| **B: review before sending** | `POST /v1/review-proposal` | Missing condition, unusual price (by ratio only), wrong unit and vague wording, with an explanation and a suggestion |
+| Health | `GET /health` | 200, no token |
+
+Every request except `/health` needs a token (`Authorization: Bearer`). There are rate, size and time limits. A Gemini rate limit comes back as HTTP 429 with `Retry-After`.
+
+### Architecture
+
+```
+Masked message from the phone
+   │
+   ▼
+Intake (agent)       splits it into jobs, quantities, conditions and payment
+   │                 code checks: a quantity only if the number is written; a percent that was not said is dropped
+   ▼
+Hybrid search        Hebrew normalisation → BM25 + Gemini embeddings → RRF → 15 candidates
+   │
+   ▼
+Matcher (agent)      picks a line from the candidates, and conditions from the library
+                     code checks: the code must be one of the candidates; confidence is computed in code
+
+Proposal to review (codes, quantities, price ratios)
+   │
+   ▼
+Fixed code checks    find the problems (rules.yaml)
+   │
+   ▼
+Reviewer (agent)     writes the explanation and the suggestion for the business owner
+```
+
+- **Agents:** CrewAI Flow, model `gemini-3.5-flash-lite` through `google-genai`. Prompts are in [`prompts/`](prompts/); they were tried first in AI Studio ([`docs/ai_studio_notes.md`](docs/ai_studio_notes.md)).
+- **Search** runs fully in memory, with no vector database. The index is kept by the catalog's hash, so embeddings are not recomputed on every request.
+- **Business rules** (required conditions, conflicting pairs, special items) live in [`app/core/rules.yaml`](app/core/rules.yaml), not in the prompt.
+
+## Evaluation
 
 | What was measured (separate test set, two runs) | Code-only baseline | With AI |
 |---|---|---|
@@ -20,11 +68,21 @@ Final project, AI Developers course, The Hebrew University (2026). Reviewed and 
 | Search: the right item among 15 candidates | 87.5% (BM25) | 100% (hybrid) |
 | Picking the right catalog item | — | 71% (tuning set: 100%) |
 
-Demo video: 
+Prompts were tuned on the tuning sets only. Full details, including what does not work: [`docs/evaluation.md`](docs/evaluation.md). The sets are in [`eval/datasets/`](eval/datasets/), the raw results in [`eval/results/`](eval/results/).
 
-https://github.com/user-attachments/assets/47a89b17-6bba-43f7-b704-9b21dc70029b
+## Limitations
 
+- **Picking the catalog item is the weak spot:** 71% on the test set against 100% on the tuning set. Repeated misses include plaster repair vs. plaster renewal and size-sensitive picks (a shutter by its size).
+- **A confident wrong line is not caught by the confidence threshold** when its search score is strong; the person approving the draft has to catch it.
+- **Answers vary between identical runs** (the model's temperature of 1.0 cannot be changed), so every test set was run twice.
+- **Payment:** one test run invented a payment plan for a message with no payment. A code guard was added afterwards and checked on the tuning and natural sets only, not rerun on the test set. A plan like "the rest in two equal payments" cannot be expressed as stages.
+- **Review results are partly by construction:** the code checks catch every price, unit and condition error because the same rules planted them. The vague lines were written for this project, and a vague phrase inside the catalog's own wording is never flagged.
+- **Labels:** the domain expert confirmed the match codes and three A+ test cases; the other A+ labels are the developer's.
+- **Gemini free tier:** about 15 model calls a minute (the server answers 429 with `Retry-After`), and free-tier content is used by Google to improve its products, so only the public catalog and fictional text are sent. Real use needs a paid key.
+- **Railway Serverless:** the first request after the server sleeps is slow and may return 502.
+- Prices and limits in [`docs/limits_and_costs.md`](docs/limits_and_costs.md) were checked on 29.10.2026 and change quickly.
 
+---
 
 Full development history is kept in a private repository, available on request.
 `SPEC x.y` in code comments refers to the design document of the app project, which is private.
@@ -88,7 +146,7 @@ Reviewer (סוכן)     מנסח הסבר והמלצה לבעל העסק
 | חיפוש: הסעיף בין 15 המועמדים | 87.5% (BM25) | 100% (היברידי) |
 | בחירת הסעיף הנכון | — | 71% (בסט הכוונון: 100%) |
 
-הפרומפטים כווננו רק על סט הכוונון. הפירוט המלא, כולל מה לא עובד: [`docs/evaluation.md`](docs/evaluation.md). הסטים נמצאים ב-[`eval/datasets/`](eval/datasets/), והתוצאות הגולמיות ב-[`eval/results/`](eval/results/).
+הפרומפטים כווננו רק על סט הכוונון. הפירוט המלא, כולל מה לא עובד: [`docs/evaluation.md`](docs/evaluation.md). הסטים נמצאים ב-[`eval/datasets/`](eval/datasets/), והתוצאות הגולמיות ב-[`eval/results/`](eval/results/). המגבלות מפורטות בסעיף Limitations למעלה.
 
 ## פרטיות
 
