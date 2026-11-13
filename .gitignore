@@ -24,3 +24,6 @@ desktop.ini
 .idea/
 .claude/settings.local.json
 
+
+# Local next-session prompt (portfolio tracker), never in git
+NEXT_SESSION.md
